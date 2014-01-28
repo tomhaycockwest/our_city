@@ -1,4 +1,4 @@
-#mapView {
+body {
 	height: 100%;
 	background: none;
 	background-color: gray;
@@ -8,7 +8,7 @@
 		top: 0;
 		left: 0;
 		right: 0;
-		bottom: 0;
+		bottom: 25px;
 	}
 
 	.container {
@@ -32,7 +32,7 @@
 				}
 			}
 
-			#nav {
+			#topNav {
 				position: relative;
 				width: 283px;
 				margin: 0 auto;

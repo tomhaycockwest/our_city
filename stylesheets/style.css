@@ -7302,44 +7302,82 @@ td.visible-print {
   th.hidden-print,
   td.hidden-print {
     display: none !important; } }
+@font-face {
+  font-family: AverageSans;
+  src: url(../fonts/AverageSans-Regular.ttf); }
+
+@font-face {
+  font-family: Intro;
+  src: url(../fonts/Intro.otf); }
+
 /* line 1, ../sass/_main.scss */
-#mapView {
+body {
   height: 100%;
   background: none;
   background-color: gray; }
   /* line 6, ../sass/_main.scss */
-  #mapView #map-canvas {
+  body #map-canvas {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0; }
+    bottom: 25px; }
   /* line 16, ../sass/_main.scss */
-  #mapView .container #header {
+  body .container #header {
     position: absolute;
     top: 50px;
     width: 100%;
     z-index: 3;
     left: 0; }
     /* line 23, ../sass/_main.scss */
-    #mapView .container #header #logo-container {
+    body .container #header #logo-container {
       position: relative;
       left: 50%;
       margin: 0 0 20px -98px;
       height: 78px;
       width: 197px; }
       /* line 30, ../sass/_main.scss */
-      #mapView .container #header #logo-container #logo {
+      body .container #header #logo-container #logo {
         display: block; }
     /* line 35, ../sass/_main.scss */
-    #mapView .container #header #nav {
+    body .container #header #topNav {
       position: relative;
       width: 283px;
       margin: 0 auto; }
       /* line 41, ../sass/_main.scss */
-      #mapView .container #header #nav ul {
+      body .container #header #topNav ul {
         overflow: hidden; }
         /* line 44, ../sass/_main.scss */
-        #mapView .container #header #nav ul li {
+        body .container #header #topNav ul li {
           float: left;
           margin-left: 15px; }
+
+/* line 2, ../sass/_footer.scss */
+#footer {
+  clear: both;
+  height: 25px;
+  padding-top: 5px;
+  position: fixed;
+  width: 100%;
+  z-index: 4;
+  background: white;
+  bottom: 0; }
+  /* line 12, ../sass/_footer.scss */
+  #footer #bottomNav {
+    float: left;
+    padding-left: 40px; }
+    /* line 16, ../sass/_footer.scss */
+    #footer #bottomNav ul {
+      display: block;
+      float: left;
+      text-transform: uppercase; }
+      /* line 21, ../sass/_footer.scss */
+      #footer #bottomNav ul li {
+        display: inline;
+        margin-right: 30px;
+        word-spacing: 1px; }
+        /* line 26, ../sass/_footer.scss */
+        #footer #bottomNav ul li a {
+          text-decoration: none;
+          color: black;
+          font-family: Intro; }
