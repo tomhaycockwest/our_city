@@ -13,7 +13,7 @@ window.onload = function () {
         mapTypeIds: ['Styled']  
     },  
         center: new google.maps.LatLng(51.5247969, -0.1036586),  
-        zoom: 12,  
+        zoom: 14,  
         mapTypeId: 'Styled',
         mapTypeControl: false,
         scrollwheel: false,
