@@ -2,7 +2,7 @@
 #footer {
 	clear: both;
 	height:25px;
-	padding-top: 5px;
+	padding-top: 3px;
 	position: fixed;
 	width: 100%;
 	z-index: 4;
@@ -27,8 +27,16 @@
 					text-decoration: none;
 					color: black;
 					font-family: $footer;
+					font-size: 12px;
 				}
 			}
 		}
 	}
+}
+
+#skyline {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 3;
 }
