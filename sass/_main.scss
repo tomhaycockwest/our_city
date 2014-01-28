@@ -1,0 +1,44 @@
+#mapView {
+	height: 100%;
+	background: none;
+	background-color: gray;
+
+	.container {
+
+		#header {
+			position: absolute;
+			top: 50px;
+			width: 100%;
+			z-index: 3;
+			left: 0;
+
+			#logo-container {
+				position: relative;
+				left: 50%;
+				margin: 0 0 20px -98px;
+				height: 78px;
+				width: 197px;
+
+				#logo {
+					display: block;
+				}
+			}
+
+			#nav {
+				position: relative;
+				width: 283px;
+				margin: 0 auto;
+
+
+				ul {
+					overflow: hidden;
+
+					li {
+						float: left;
+						margin-left: 15px;
+					}
+				}
+			}
+		}
+	}
+}
