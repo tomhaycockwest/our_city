@@ -7332,42 +7332,54 @@ td.visible-print {
   position: absolute;
   border: solid 3px white; }
 
-/* line 23, ../sass/_upload.scss */
+/* line 27, ../sass/_upload.scss */
+.choose-file,
+.location,
+.caption,
+.tag,
+.upload {
+  color: white;
+  font-family: Intro;
+  font-size: 15px;
+  margin-top: 31px;
+  margin-left: 20px; }
+
+/* line 35, ../sass/_upload.scss */
 .camera-upload {
   background: #13958a;
   left: -50px;
   top: 70px; }
-  /* line 29, ../sass/_upload.scss */
+  /* line 41, ../sass/_upload.scss */
   .camera-upload .arrow {
     border-bottom: 20px solid #13958a;
     left: 69px; }
 
-/* line 35, ../sass/_upload.scss */
+/* line 47, ../sass/_upload.scss */
 .audio-upload {
   background: #b9205b;
   left: -50px;
   top: 70px; }
-  /* line 41, ../sass/_upload.scss */
+  /* line 53, ../sass/_upload.scss */
   .audio-upload .arrow {
     border-bottom: 20px solid #b9205b;
     left: 135px; }
 
-/* line 47, ../sass/_upload.scss */
+/* line 59, ../sass/_upload.scss */
 .quote-upload {
   background: #0d8fac;
   left: -50px;
   top: 70px; }
-  /* line 53, ../sass/_upload.scss */
+  /* line 65, ../sass/_upload.scss */
   .quote-upload .arrow {
     border-bottom: 20px solid #0d8fac;
     left: 203px; }
 
-/* line 59, ../sass/_upload.scss */
+/* line 71, ../sass/_upload.scss */
 .video-upload {
   background: #ec3912;
   left: -50px;
   top: 70px; }
-  /* line 65, ../sass/_upload.scss */
+  /* line 77, ../sass/_upload.scss */
   .video-upload .arrow {
     border-bottom: 20px solid #ec3912;
     left: 269px; }

@@ -20,6 +20,18 @@
 	border: solid 3px white;
 }
 
+.choose-file,
+.location,
+.caption,
+.tag,
+.upload {
+	color: white;
+	font-family: $body;
+	font-size: 15px;
+	margin-top: 31px;
+	margin-left: 20px;
+}
+
 .camera-upload {
 	@extend .menu;
 	background: $camera;
