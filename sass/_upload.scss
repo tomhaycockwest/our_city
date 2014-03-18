@@ -6,15 +6,37 @@
 	border-bottom: 20px solid black;
 }
 
-.audio-upload {
-	display: block;
-	background: $audio;
+.active {
+	display: block !important;
+}
+
+.menu {
+	display: none;
 	width: 400px;
 	height: 300px;
 	position: absolute;
+	border: solid 3px white;
+}
+
+.camera-upload {
+	@extend .menu;
+	background: $camera;
 	left: -50px;
 	top: 70px;
-	border: solid 3px white;
+
+	.arrow {
+		border-bottom: 20px solid $camera;
+		left: 69px;
+		top: -19px;
+		position: absolute;
+	}
+}
+
+.audio-upload {
+	@extend .menu;
+	background: $audio;
+	left: -50px;
+	top: 70px;
 
 	.arrow {
 		border-bottom: 20px solid $audio;

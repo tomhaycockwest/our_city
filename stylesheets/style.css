@@ -7319,16 +7319,35 @@ td.visible-print {
   border-bottom: 20px solid black; }
 
 /* line 9, ../sass/_upload.scss */
-.audio-upload {
-  display: block;
-  background: #b9205b;
+.active {
+  display: block !important; }
+
+/* line 13, ../sass/_upload.scss */
+.menu, .camera-upload, .audio-upload {
+  display: none;
   width: 400px;
   height: 300px;
   position: absolute;
-  left: -50px;
-  top: 70px;
   border: solid 3px white; }
-  /* line 19, ../sass/_upload.scss */
+
+/* line 21, ../sass/_upload.scss */
+.camera-upload {
+  background: #13958a;
+  left: -50px;
+  top: 70px; }
+  /* line 27, ../sass/_upload.scss */
+  .camera-upload .arrow {
+    border-bottom: 20px solid #13958a;
+    left: 69px;
+    top: -19px;
+    position: absolute; }
+
+/* line 35, ../sass/_upload.scss */
+.audio-upload {
+  background: #b9205b;
+  left: -50px;
+  top: 70px; }
+  /* line 41, ../sass/_upload.scss */
   .audio-upload .arrow {
     border-bottom: 20px solid #b9205b;
     left: 135px;
