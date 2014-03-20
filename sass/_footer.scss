@@ -30,7 +30,9 @@
 					font-size: 12px;
 				}
 
-
+				.highlighted {
+					color: $bottomNav;
+				}
 			}
 		}
 	}
@@ -43,8 +45,8 @@
 	z-index: 3;
 }
 
-.filter-menu {
-	display: block;
+#filter-menu {
+	display: none;
 	background: $bottomNav;
 	height: 100%;
 	width: 110px;
@@ -71,5 +73,26 @@
 		.selected {
 			color: $bottomNavSelected;
 		}
+
+
+	}
+}
+
+#about-menu {
+	display: none;
+	width: 340px;
+	position: absolute;
+	bottom: 25px;
+	left: 10px;
+	background: $bottomNav;
+	border: 3px solid white;
+	border-bottom: none;
+	@include box-sizing(border-box);
+
+	p {
+		padding: 20px 20px 100px 20px;
+		color: white;
+		font-family: $nav;
+		font-size: 15px;
 	}
 }

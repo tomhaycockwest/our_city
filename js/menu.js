@@ -16,3 +16,16 @@ $('#quote').hover(function() {
 $('#video').hover(function() {
   $('.video-upload').toggleClass('active');
 });
+
+
+// Footer Menu
+
+$('#filter').click(function() {
+  $('#filter-menu').toggleClass('active');
+  $(this).toggleClass('highlighted');
+});
+
+$('#about').click(function() {
+  $('#about-menu').toggleClass('active');
+  $(this).toggleClass('highlighted');
+});
