@@ -29,6 +29,8 @@
 					font-family: $body;
 					font-size: 12px;
 				}
+
+
 			}
 		}
 	}
@@ -39,4 +41,35 @@
 	bottom: 0;
 	left: 0;
 	z-index: 3;
+}
+
+.filter-menu {
+	display: block;
+	background: $bottomNav;
+	height: 100%;
+	width: 110px;
+	position: absolute;
+	left: 10px;
+	bottom: 25px;
+
+	ul {
+		color: white;
+		font-family: $body;
+		font-size: 12px;
+		margin-top: 50px;
+
+		li {
+			border-top: 1px solid white;
+			padding: 10px 0 10px 10px;
+			@include box-sizing(border-box);
+
+			&:last-child {
+				border-bottom: 1px solid white;
+			}
+		}
+
+		.selected {
+			color: $bottomNavSelected;
+		}
+	}
 }

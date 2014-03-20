@@ -7457,9 +7457,38 @@ body {
           font-family: Intro;
           font-size: 12px; }
 
-/* line 37, ../sass/_footer.scss */
+/* line 39, ../sass/_footer.scss */
 #skyline {
   position: absolute;
   bottom: 0;
   left: 0;
   z-index: 3; }
+
+/* line 46, ../sass/_footer.scss */
+.filter-menu {
+  display: block;
+  background: #70c252;
+  height: 100%;
+  width: 110px;
+  position: absolute;
+  left: 10px;
+  bottom: 25px; }
+  /* line 55, ../sass/_footer.scss */
+  .filter-menu ul {
+    color: white;
+    font-family: Intro;
+    font-size: 12px;
+    margin-top: 50px; }
+    /* line 61, ../sass/_footer.scss */
+    .filter-menu ul li {
+      border-top: 1px solid white;
+      padding: 10px 0 10px 10px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box; }
+      /* line 66, ../sass/_footer.scss */
+      .filter-menu ul li:last-child {
+        border-bottom: 1px solid white; }
+    /* line 71, ../sass/_footer.scss */
+    .filter-menu ul .selected {
+      color: #396927; }
