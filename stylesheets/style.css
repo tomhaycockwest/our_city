@@ -7496,7 +7496,7 @@ body {
     #filter-menu ul .selected {
       color: #396927; }
 
-/* line 81, ../sass/_footer.scss */
+/* line 79, ../sass/_footer.scss */
 #about-menu {
   display: none;
   width: 340px;
@@ -7509,7 +7509,7 @@ body {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
-  /* line 92, ../sass/_footer.scss */
+  /* line 90, ../sass/_footer.scss */
   #about-menu p {
     padding: 20px 20px 100px 20px;
     color: white;
