@@ -76,7 +76,7 @@
 	}
 }
 
-#about-menu {
+.bottom-menu {
 	display: none;
 	width: 340px;
 	position: absolute;
@@ -86,11 +86,39 @@
 	border: 3px solid white;
 	border-bottom: none;
 	@include box-sizing(border-box);
+}
+
+#about-menu{
+	@extend .bottom-menu;
 
 	p {
 		padding: 20px 20px 100px 20px;
 		color: white;
 		font-family: $nav;
 		font-size: 15px;
+	}
+
+	
+}
+
+#join-menu {
+	@extend .bottom-menu;
+	padding: 30px;
+	padding-bottom: 80px;
+
+	.form-label {
+		font-family: $body;
+		font-size: 15px;
+		color: white;
+	}
+
+	.disclaimer {
+		font-size: 12px;
+		font-family: $nav;
+		color: white;
+	}
+
+	.submit {
+		margin-top: 15px;
 	}
 }

@@ -29,3 +29,8 @@ $('#about').click(function() {
   $('#about-menu').toggleClass('active');
   $(this).toggleClass('highlighted');
 });
+
+$('#join').click(function() {
+  $('#join-menu').toggleClass('active');
+  $(this).toggleClass('highlighted');
+});
