@@ -34,3 +34,8 @@ $('#join').click(function() {
   $('#join-menu').toggleClass('active');
   $(this).toggleClass('highlighted');
 });
+
+$('#login').click(function() {
+  $('#login-menu').toggleClass('active');
+  $(this).toggleClass('highlighted');
+});

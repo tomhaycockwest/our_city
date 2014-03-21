@@ -97,8 +97,6 @@
 		font-family: $nav;
 		font-size: 15px;
 	}
-
-	
 }
 
 #join-menu {
@@ -106,19 +104,25 @@
 	padding: 30px;
 	padding-bottom: 80px;
 
-	.form-label {
-		font-family: $body;
-		font-size: 15px;
-		color: white;
-	}
-
 	.disclaimer {
 		font-size: 12px;
 		font-family: $nav;
 		color: white;
 	}
+}
 
-	.submit {
-		margin-top: 15px;
-	}
+.form-label {
+	font-family: $body;
+	font-size: 15px;
+	color: white;
+}
+
+.submit {
+	margin-top: 15px;
+}
+
+#login-menu {
+	@extend .bottom-menu;
+	padding: 30px;
+	padding-bottom: 80px;
 }

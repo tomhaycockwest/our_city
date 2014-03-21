@@ -7496,7 +7496,7 @@ body {
       color: #396927; }
 
 /* line 79, ../sass/_footer.scss */
-.bottom-menu, #about-menu, #join-menu {
+.bottom-menu, #about-menu, #join-menu, #login-menu {
   display: none;
   width: 340px;
   position: absolute;
@@ -7516,20 +7516,27 @@ body {
   font-family: AverageSans;
   font-size: 15px; }
 
-/* line 104, ../sass/_footer.scss */
+/* line 102, ../sass/_footer.scss */
 #join-menu {
   padding: 30px;
   padding-bottom: 80px; }
-  /* line 109, ../sass/_footer.scss */
-  #join-menu .form-label {
-    font-family: Intro;
-    font-size: 15px;
-    color: white; }
-  /* line 115, ../sass/_footer.scss */
+  /* line 107, ../sass/_footer.scss */
   #join-menu .disclaimer {
     font-size: 12px;
     font-family: AverageSans;
     color: white; }
-  /* line 121, ../sass/_footer.scss */
-  #join-menu .submit {
-    margin-top: 15px; }
+
+/* line 114, ../sass/_footer.scss */
+.form-label {
+  font-family: Intro;
+  font-size: 15px;
+  color: white; }
+
+/* line 120, ../sass/_footer.scss */
+.submit {
+  margin-top: 15px; }
+
+/* line 124, ../sass/_footer.scss */
+#login-menu {
+  padding: 30px;
+  padding-bottom: 80px; }
