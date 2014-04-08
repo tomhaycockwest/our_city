@@ -7395,32 +7395,36 @@ body {
     left: 0;
     right: 0;
     bottom: 25px; }
-  /* line 16, ../sass/_main.scss */
+    @media (min-device-width: 320px) and (max-device-width: 480px) {
+      /* line 6, ../sass/_main.scss */
+      body #map-canvas {
+        bottom: 0px; } }
+  /* line 20, ../sass/_main.scss */
   body .container #header {
     position: absolute;
     top: 50px;
     width: 100%;
     z-index: 3;
     left: 0; }
-    /* line 23, ../sass/_main.scss */
+    /* line 27, ../sass/_main.scss */
     body .container #header #logo-container {
       position: relative;
       left: 50%;
       margin: 0 0 20px -98px;
       height: 78px;
       width: 197px; }
-      /* line 30, ../sass/_main.scss */
+      /* line 34, ../sass/_main.scss */
       body .container #header #logo-container #logo {
         display: block; }
-    /* line 35, ../sass/_main.scss */
+    /* line 39, ../sass/_main.scss */
     body .container #header #topNav {
       position: relative;
       width: 283px;
       margin: 0 auto; }
-      /* line 41, ../sass/_main.scss */
+      /* line 45, ../sass/_main.scss */
       body .container #header #topNav ul {
         overflow: hidden; }
-        /* line 44, ../sass/_main.scss */
+        /* line 48, ../sass/_main.scss */
         body .container #header #topNav ul li {
           float: left;
           margin-left: 15px; }
