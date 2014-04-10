@@ -44,40 +44,23 @@ $('#login').click(function() {
 // Mobile Menu
 
 $('.filter-mobile').click(function() {
-  $('.filter-menu-mobile').toggleClass('active');
+	$('.filter-menu-mobile').toggleClass('active');
 });
 
 $('.filter-menu-mobile li').click(function(){
-  $(this).toggleClass('selected');
+	$(this).toggleClass('selected');
 });
 
 
-$('.camera-mobile').click(function() {
-  $('.photo-upload-mobile').animate({'bottom': '0'}, "fast", "linear");
+// Camera Drawer Animation Mobile
+
+var cameraDrawer = "closed";
+$(".camera-mobile").click(function() {
+    if(cameraDrawer === "closed"){
+        $('.photo-upload-mobile').animate({'bottom': '0'}, "fast", "linear");
+        cameraDrawer = "open";
+    } else if(cameraDrawer === "open") {
+        $('.photo-upload-mobile').animate({'bottom': '-220px'}, "fast", "linear");
+        cameraDrawer = "closed";
+    }
 });
-
-
-// $('.camera-mobile').click(function() {
-//   $('.photo-upload-mobile').clickToggle(
-//     function() {
-//     $(this).animate({'bottom': '0'}, "fast", "linear");
-//   },
-//     function() {
-//     $(this).animate({'bottom': '-220px'}, "fast", "linear");
-//   });
-// });
-
-
-
-
-// $(function slideUp() {
-// $('.photo-upload-mobile').toggle(function() {
-//   $('.photo-upload-mobile').animate({'bottom': '0'}, "fast", "linear");
-// }, function() {
-//   $('.photo-upload-mobile').animate({'bottom': '-220px'}, "fast", "linear");
-// });
-// });
-
-// $('.camera-mobile').click(function() {
-//   slideUp();
-// });
