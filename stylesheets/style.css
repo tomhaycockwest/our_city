@@ -7498,14 +7498,29 @@ body {
     color: #396927; }
 
 /* line 78, ../sass/_mobile.scss */
-.photo-upload-mobile {
+.upload-mobile, .photo-upload-mobile, .audio-upload-mobile, .quote-upload-mobile, .video-upload-mobile {
   display: block;
   position: absolute;
   width: 100%;
   z-index: 4;
-  background-color: #13958a;
   height: 220px;
   bottom: -220px; }
+
+/* line 87, ../sass/_mobile.scss */
+.photo-upload-mobile {
+  background-color: #13958a; }
+
+/* line 92, ../sass/_mobile.scss */
+.audio-upload-mobile {
+  background-color: #b9205b; }
+
+/* line 97, ../sass/_mobile.scss */
+.quote-upload-mobile {
+  background-color: #0d8fac; }
+
+/* line 102, ../sass/_mobile.scss */
+.video-upload-mobile {
+  background-color: #ec3912; }
 
 /* line 2, ../sass/_footer.scss */
 #footer {

@@ -51,16 +51,72 @@ $('.filter-menu-mobile li').click(function(){
 	$(this).toggleClass('selected');
 });
 
-
 // Camera Drawer Animation Mobile
-
+var audioDrawer = "closed";
+var quoteDrawer = "closed";
+var videoDrawer = "closed";
 var cameraDrawer = "closed";
 $(".camera-mobile").click(function() {
+	$(".audio-upload-mobile, .quote-upload-mobile, .video-upload-mobile").animate({'bottom': '-220px'}, "fast", "linear");
+	audioDrawer = "closed";
+	quoteDrawer = "closed";
+	videoDrawer = "closed";
     if(cameraDrawer === "closed"){
         $('.photo-upload-mobile').animate({'bottom': '0'}, "fast", "linear");
         cameraDrawer = "open";
     } else if(cameraDrawer === "open") {
         $('.photo-upload-mobile').animate({'bottom': '-220px'}, "fast", "linear");
         cameraDrawer = "closed";
+    }
+});
+
+// Audio Drawer Animation Mobile
+
+
+$(".audio-mobile").click(function() {
+	$(".photo-upload-mobile, .quote-upload-mobile, .video-upload-mobile").animate({'bottom': '-220px'}, "fast", "linear");
+	cameraDrawer = "closed";
+	quoteDrawer = "closed";
+	videoDrawer = "closed";
+    if(audioDrawer === "closed"){
+        $('.audio-upload-mobile').animate({'bottom': '0'}, "fast", "linear");
+        audioDrawer = "open";
+    } else if(audioDrawer === "open") {
+        $('.audio-upload-mobile').animate({'bottom': '-220px'}, "fast", "linear");
+        audioDrawer = "closed";
+    }
+});
+
+// Quote Drawer Animation Mobile
+
+
+$(".quote-mobile").click(function() {
+	$(".audio-upload-mobile, .photo-upload-mobile, .video-upload-mobile").animate({'bottom': '-220px'}, "fast", "linear");
+	audioDrawer = "closed";
+	cameraDrawer = "closed";
+	videoDrawer = "closed";
+    if(quoteDrawer === "closed"){
+        $('.quote-upload-mobile').animate({'bottom': '0'}, "fast", "linear");
+        quoteDrawer = "open";
+    } else if(quoteDrawer === "open") {
+        $('.quote-upload-mobile').animate({'bottom': '-220px'}, "fast", "linear");
+        quoteDrawer = "closed";
+    }
+});
+
+// Video Drawer Animation Mobile
+
+
+$(".video-mobile").click(function() {
+	$(".audio-upload-mobile, .quote-upload-mobile, .photo-upload-mobile").animate({'bottom': '-220px'}, "fast", "linear");
+	audioDrawer = "closed";
+	quoteDrawer = "closed";
+	cameraDrawer = "closed";
+    if(videoDrawer === "closed"){
+        $('.video-upload-mobile').animate({'bottom': '0'}, "fast", "linear");
+        videoDrawer = "open";
+    } else if(videoDrawer === "open") {
+        $('.video-upload-mobile').animate({'bottom': '-220px'}, "fast", "linear");
+        videoDrawer = "closed";
     }
 });

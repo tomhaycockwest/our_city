@@ -50,6 +50,9 @@
         </div>
 
         <div class="photo-upload-mobile"></div>
+        <div class="audio-upload-mobile"></div>
+        <div class="quote-upload-mobile"></div>
+        <div class="video-upload-mobile"></div>
 
         <div id="map-canvas"></div>
 

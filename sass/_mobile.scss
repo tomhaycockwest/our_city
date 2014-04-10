@@ -75,12 +75,31 @@
 
 }
 
-.photo-upload-mobile {
+.upload-mobile {
 	display: block;
 	position: absolute;
 	width: 100%;
 	z-index: 4;
-	background-color: $camera;
 	height: 220px;
 	bottom: -220px;
+}
+
+.photo-upload-mobile {
+	@extend .upload-mobile;
+	background-color: $camera;
+}
+
+.audio-upload-mobile {
+	@extend .upload-mobile;
+	background-color: $audio;
+}
+
+.quote-upload-mobile {
+	@extend .upload-mobile;
+	background-color: $quote;
+}
+
+.video-upload-mobile {
+	@extend .upload-mobile;
+	background-color: $video;
 }
