@@ -49,6 +49,8 @@
             </div>
         </div>
 
+        <div class="photo-upload-mobile"></div>
+
         <div id="map-canvas"></div>
 
         <?php include 'footer.php' ?>

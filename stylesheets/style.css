@@ -7497,6 +7497,16 @@ body {
   .filter-menu-mobile li.selected a {
     color: #396927; }
 
+/* line 78, ../sass/_mobile.scss */
+.photo-upload-mobile {
+  display: block;
+  position: absolute;
+  width: 100%;
+  z-index: 4;
+  background-color: #13958a;
+  height: 220px;
+  bottom: -220px; }
+
 /* line 2, ../sass/_footer.scss */
 #footer {
   clear: both;

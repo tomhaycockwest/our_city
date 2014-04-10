@@ -50,3 +50,34 @@ $('.filter-mobile').click(function() {
 $('.filter-menu-mobile li').click(function(){
   $(this).toggleClass('selected');
 });
+
+
+$('.camera-mobile').click(function() {
+  $('.photo-upload-mobile').animate({'bottom': '0'}, "fast", "linear");
+});
+
+
+// $('.camera-mobile').click(function() {
+//   $('.photo-upload-mobile').clickToggle(
+//     function() {
+//     $(this).animate({'bottom': '0'}, "fast", "linear");
+//   },
+//     function() {
+//     $(this).animate({'bottom': '-220px'}, "fast", "linear");
+//   });
+// });
+
+
+
+
+// $(function slideUp() {
+// $('.photo-upload-mobile').toggle(function() {
+//   $('.photo-upload-mobile').animate({'bottom': '0'}, "fast", "linear");
+// }, function() {
+//   $('.photo-upload-mobile').animate({'bottom': '-220px'}, "fast", "linear");
+// });
+// });
+
+// $('.camera-mobile').click(function() {
+//   slideUp();
+// });

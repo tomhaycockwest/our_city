@@ -74,3 +74,13 @@
 	}
 
 }
+
+.photo-upload-mobile {
+	display: block;
+	position: absolute;
+	width: 100%;
+	z-index: 4;
+	background-color: $camera;
+	height: 220px;
+	bottom: -220px;
+}
