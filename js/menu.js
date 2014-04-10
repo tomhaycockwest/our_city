@@ -46,3 +46,7 @@ $('#login').click(function() {
 $('.filter-mobile').click(function() {
   $('.filter-menu-mobile').toggleClass('active');
 });
+
+$('.filter-menu-mobile li').click(function(){
+  $(this).toggleClass('selected');
+});

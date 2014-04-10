@@ -7493,6 +7493,9 @@ body {
     color: white;
     font-size: 12px;
     width: 100px; }
+  /* line 72, ../sass/_mobile.scss */
+  .filter-menu-mobile li.selected a {
+    color: #396927; }
 
 /* line 2, ../sass/_footer.scss */
 #footer {

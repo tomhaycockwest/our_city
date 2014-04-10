@@ -44,7 +44,7 @@
                 <ul>
                    <li><a href="#">food &amp; drink</a></li>
                    <li><a href="#">hidden gems</a></li>
-                   <li><a href="#">my london</a></li>
+                   <li class="selected"><a href="#">my london</a></li>
                 </ul>
             </div>
         </div>
