@@ -51,11 +51,13 @@ $('.filter-menu-mobile li').click(function(){
 	$(this).toggleClass('selected');
 });
 
-// Camera Drawer Animation Mobile
+// Set Drawer Variables
 var audioDrawer = "closed";
 var quoteDrawer = "closed";
 var videoDrawer = "closed";
 var cameraDrawer = "closed";
+
+// Camera Drawer Animation Mobile
 $(".camera-mobile").click(function() {
 	$(".audio-upload-mobile, .quote-upload-mobile, .video-upload-mobile").animate({'bottom': '-220px'}, "fast", "linear");
 	audioDrawer = "closed";
@@ -64,15 +66,15 @@ $(".camera-mobile").click(function() {
     if(cameraDrawer === "closed"){
         $('.photo-upload-mobile').animate({'bottom': '0'}, "fast", "linear");
         cameraDrawer = "open";
+        $('#logo-container-mobile').css("background-color", "#13958a");
     } else if(cameraDrawer === "open") {
         $('.photo-upload-mobile').animate({'bottom': '-220px'}, "fast", "linear");
+        $('#logo-container-mobile').css("background-color", "#70c252");
         cameraDrawer = "closed";
     }
 });
 
 // Audio Drawer Animation Mobile
-
-
 $(".audio-mobile").click(function() {
 	$(".photo-upload-mobile, .quote-upload-mobile, .video-upload-mobile").animate({'bottom': '-220px'}, "fast", "linear");
 	cameraDrawer = "closed";
@@ -81,15 +83,15 @@ $(".audio-mobile").click(function() {
     if(audioDrawer === "closed"){
         $('.audio-upload-mobile').animate({'bottom': '0'}, "fast", "linear");
         audioDrawer = "open";
+        $('#logo-container-mobile').css("background-color", "#b9205b");
     } else if(audioDrawer === "open") {
         $('.audio-upload-mobile').animate({'bottom': '-220px'}, "fast", "linear");
         audioDrawer = "closed";
+        $('#logo-container-mobile').css("background-color", "#70c252");
     }
 });
 
 // Quote Drawer Animation Mobile
-
-
 $(".quote-mobile").click(function() {
 	$(".audio-upload-mobile, .photo-upload-mobile, .video-upload-mobile").animate({'bottom': '-220px'}, "fast", "linear");
 	audioDrawer = "closed";
@@ -98,15 +100,15 @@ $(".quote-mobile").click(function() {
     if(quoteDrawer === "closed"){
         $('.quote-upload-mobile').animate({'bottom': '0'}, "fast", "linear");
         quoteDrawer = "open";
+        $('#logo-container-mobile').css("background-color", "#0d8fac");
     } else if(quoteDrawer === "open") {
         $('.quote-upload-mobile').animate({'bottom': '-220px'}, "fast", "linear");
         quoteDrawer = "closed";
+        $('#logo-container-mobile').css("background-color", "#70c252");
     }
 });
 
 // Video Drawer Animation Mobile
-
-
 $(".video-mobile").click(function() {
 	$(".audio-upload-mobile, .quote-upload-mobile, .photo-upload-mobile").animate({'bottom': '-220px'}, "fast", "linear");
 	audioDrawer = "closed";
@@ -115,8 +117,10 @@ $(".video-mobile").click(function() {
     if(videoDrawer === "closed"){
         $('.video-upload-mobile').animate({'bottom': '0'}, "fast", "linear");
         videoDrawer = "open";
+        $('#logo-container-mobile').css("background-color", "#ec3912");
     } else if(videoDrawer === "open") {
         $('.video-upload-mobile').animate({'bottom': '-220px'}, "fast", "linear");
         videoDrawer = "closed";
+        $('#logo-container-mobile').css("background-color", "#70c252");
     }
 });
