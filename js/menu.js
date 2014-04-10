@@ -39,3 +39,10 @@ $('#login').click(function() {
   $('#login-menu').toggleClass('active');
   $(this).toggleClass('highlighted');
 });
+
+
+// Mobile Menu
+
+$('.filter-mobile').click(function() {
+  $('.filter-menu-mobile').toggleClass('active');
+});
