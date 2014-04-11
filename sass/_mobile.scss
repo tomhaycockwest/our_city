@@ -107,13 +107,15 @@
 #footer-mobile {
 	@extend .upload-mobile;
 	background: $header;
-	bottom: -200px;
+	bottom: -430px;
+	height: 450px;
 
 
 	a {
 		color: white;
 		font-family: $body;
 		font-size: 12px;
+		margin-bottom: 10px;
 
 		&:hover {
 			text-decoration: none;
@@ -121,7 +123,7 @@
 	}
 
 	#login-form-mobile,
-	#register-form-mobile {
+	#join-form-mobile {
 		display:none;
 	}
 }

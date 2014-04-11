@@ -53,9 +53,45 @@
 
         <div id="footer-mobile">
             <div class="container">
-                <a id="login" href="#">Login /</a><a id="register" href="#"> Register</a>
-                <div id="login-form-mobile">login</div>
-                <div id="register-form-mobile">register</div>
+                <a id="login" href="#">Login /</a><a id="join" href="#"> Join</a>
+                <br></br>
+                <div id="login-form-mobile">
+                    <form role="form">
+                        <div class="form-group">
+                            <label class="form-label" for="InputEmail">Email address</label>
+                            <input type="email" class="form-control" id="InputEmail">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="InputPassword">Password</label>
+                            <input type="password" class="form-control" id="InputPassword">
+                        </div>
+
+                        <button type="submit" class="btn btn-default submit">Login</button>
+                    </form>
+                </div>
+                <div id="join-form-mobile">
+                        <form role="form">
+                            <div class="form-group">
+                              <label class="form-label" for="InputName">Name</label>
+                              <input type="text" class="form-control" id="InputName">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="InputEmail">Email address</label>
+                                <input type="email" class="form-control" id="InputEmail">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="InputPassword">Password</label>
+                                <input type="password" class="form-control" id="InputPassword">
+                            </div>
+                        </form>
+                        <div class="checkbox">
+                            <label class="disclaimer">
+                              <input type="checkbox"> I agree that all content I upload is appropriate for the website. I will not upload content that may be deemed at violent, racially offensive, or of a sexual nature.
+                            </label>
+                          </div>
+
+                        <button type="submit" class="btn btn-default submit">Submit</button>
+                </div>
             </div>
         </div>
 

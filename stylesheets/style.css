@@ -7525,18 +7525,20 @@ body {
 /* line 107, ../sass/_mobile.scss */
 #footer-mobile {
   background: #70c252;
-  bottom: -200px; }
-  /* line 113, ../sass/_mobile.scss */
+  bottom: -430px;
+  height: 450px; }
+  /* line 114, ../sass/_mobile.scss */
   #footer-mobile a {
     color: white;
     font-family: Intro;
-    font-size: 12px; }
-    /* line 118, ../sass/_mobile.scss */
+    font-size: 12px;
+    margin-bottom: 10px; }
+    /* line 120, ../sass/_mobile.scss */
     #footer-mobile a:hover {
       text-decoration: none; }
-  /* line 124, ../sass/_mobile.scss */
+  /* line 126, ../sass/_mobile.scss */
   #footer-mobile #login-form-mobile,
-  #footer-mobile #register-form-mobile {
+  #footer-mobile #join-form-mobile {
     display: none; }
 
 /* line 2, ../sass/_footer.scss */

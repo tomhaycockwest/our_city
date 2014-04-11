@@ -57,11 +57,12 @@ var quoteDrawer = "closed";
 var videoDrawer = "closed";
 var cameraDrawer = "closed";
 var loginDrawer = "closed";
+var joinDrawer = "closed";
 
 // Camera Drawer Animation Mobile
 $(".camera-mobile").click(function() {
 	$(".audio-upload-mobile, .quote-upload-mobile, .video-upload-mobile").animate({'bottom': '-220px'}, "fast", "linear");
-	$("#footer-mobile").animate({'bottom': '-200px'}, "fast", "linear");
+	$("#footer-mobile").animate({'bottom': '-430px'}, "fast", "linear");
 	audioDrawer = "closed";
 	quoteDrawer = "closed";
 	videoDrawer = "closed";
@@ -80,7 +81,7 @@ $(".camera-mobile").click(function() {
 // Audio Drawer Animation Mobile
 $(".audio-mobile").click(function() {
 	$(".photo-upload-mobile, .quote-upload-mobile, .video-upload-mobile").animate({'bottom': '-220px'}, "fast", "linear");
-	$("#footer-mobile").animate({'bottom': '-200px'}, "fast", "linear");
+	$("#footer-mobile").animate({'bottom': '-430px'}, "fast", "linear");
 	cameraDrawer = "closed";
 	quoteDrawer = "closed";
 	videoDrawer = "closed";
@@ -99,7 +100,7 @@ $(".audio-mobile").click(function() {
 // Quote Drawer Animation Mobile
 $(".quote-mobile").click(function() {
 	$(".audio-upload-mobile, .photo-upload-mobile, .video-upload-mobile").animate({'bottom': '-220px'}, "fast", "linear");
-	$("#footer-mobile").animate({'bottom': '-200px'}, "fast", "linear");
+	$("#footer-mobile").animate({'bottom': '-430px'}, "fast", "linear");
 	audioDrawer = "closed";
 	cameraDrawer = "closed";
 	videoDrawer = "closed";
@@ -118,7 +119,7 @@ $(".quote-mobile").click(function() {
 // Video Drawer Animation Mobile
 $(".video-mobile").click(function() {
 	$(".audio-upload-mobile, .quote-upload-mobile, .photo-upload-mobile").animate({'bottom': '-220px'}, "fast", "linear");
-	$("#footer-mobile").animate({'bottom': '-200px'}, "fast", "linear");
+	$("#footer-mobile").animate({'bottom': '-430px'}, "fast", "linear");
 	audioDrawer = "closed";
 	quoteDrawer = "closed";
 	cameraDrawer = "closed";
@@ -136,26 +137,32 @@ $(".video-mobile").click(function() {
 
 // login Drawer Animation Mobile
 $("#login").click(function() {
+	$('#login-form-mobile').css("display", "block");
 	if(loginDrawer === "closed"){
 		$('#footer-mobile').animate({'bottom': '0'}, "fast", "linear");
 		loginDrawer = "open";
+		$('#join-form-mobile').css("display", "none");
+	} else if(loginDrawer && joinDrawer === "open") {
 		$('#login-form-mobile').css("display", "block");
-		$('#register-form-mobile').css("display", "none");
+		$('#join-form-mobile').css("display", "none");
+		joinDrawer = "closed";
+		loginDrawer = "open";
 	} else if(loginDrawer === "open") {
-		$('#footer-mobile').animate({'bottom': '-200px'}, "fast", "linear");
+		$('#footer-mobile').animate({'bottom': '-430px'}, "fast", "linear");
 		loginDrawer = "closed";
+
 	}
 });
 
 // login Drawer Animation Mobile
-$("#register").click(function() {
-	if(loginDrawer === "closed"){
+$("#join").click(function() {
+	$('#join-form-mobile').css("display", "block");
+	if(joinDrawer === "closed"){
 		$('#footer-mobile').animate({'bottom': '0'}, "fast", "linear");
-		loginDrawer = "open";
+		joinDrawer = "open";
 		$('#login-form-mobile').css("display", "none");
-		$('#register-form-mobile').css("display", "block");
-	} else if(loginDrawer === "open") {
-		$('#footer-mobile').animate({'bottom': '-200px'}, "fast", "linear");
-		loginDrawer = "closed";
+	} else if(joinDrawer === "open") {
+		$('#footer-mobile').animate({'bottom': '-430px'}, "fast", "linear");
+		joinDrawer = "closed";
 	}
 });
