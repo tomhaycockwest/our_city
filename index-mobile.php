@@ -7,21 +7,23 @@
                 </div>
             </div>
             <div id="nav-mobile">
-                <li class="filter-mobile">
-                    <a href="#"></a><img src="img/filter-not-selected.png"></a>
-                </li>
-                <li class="camera-mobile">
-                    <img src="img/photo-not-selected.png">
-                </li>
-                <li class="audio-mobile">
-                    <img src="img/sound-not-selected.png">
-                </li>
-                <li class="quote-mobile">
-                    <img src="img/quote-not-selected.png">
-                </li>
-                <li class="video-mobile">
-                    <img src="img/video-not-selected.png">
-                </li>
+                <div class="container">
+                    <li class="filter-mobile">
+                        <a href="#"></a><img src="img/filter-not-selected.png"></a>
+                    </li>
+                    <li class="camera-mobile">
+                        <img src="img/photo-not-selected.png">
+                    </li>
+                    <li class="audio-mobile">
+                        <img src="img/sound-not-selected.png">
+                    </li>
+                    <li class="quote-mobile">
+                        <img src="img/quote-not-selected.png">
+                    </li>
+                    <li class="video-mobile">
+                        <img src="img/video-not-selected.png">
+                    </li>
+                </div>
             </div>
         </div>
 
@@ -46,6 +48,14 @@
                    <li><a href="#">hidden gems</a></li>
                    <li class="selected"><a href="#">my london</a></li>
                 </ul>
+            </div>
+        </div>
+
+        <div id="footer-mobile">
+            <div class="container">
+                <a id="login" href="#">Login /</a><a id="register" href="#"> Register</a>
+                <div id="login-form-mobile">login</div>
+                <div id="register-form-mobile">register</div>
             </div>
         </div>
 

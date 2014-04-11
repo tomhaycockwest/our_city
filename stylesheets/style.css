@@ -7463,7 +7463,7 @@ body {
     padding-top: 9px; }
     /* line 34, ../sass/_mobile.scss */
     #nav-mobile li:first-child {
-      padding-left: 15px; }
+      padding-left: 0; }
 
 /* line 40, ../sass/_mobile.scss */
 .filter-menu-mobile {
@@ -7498,7 +7498,7 @@ body {
     color: #396927; }
 
 /* line 78, ../sass/_mobile.scss */
-.upload-mobile, .photo-upload-mobile, .audio-upload-mobile, .quote-upload-mobile, .video-upload-mobile {
+.upload-mobile, .photo-upload-mobile, .audio-upload-mobile, .quote-upload-mobile, .video-upload-mobile, #footer-mobile {
   display: block;
   position: absolute;
   width: 100%;
@@ -7521,6 +7521,23 @@ body {
 /* line 102, ../sass/_mobile.scss */
 .video-upload-mobile {
   background-color: #ec3912; }
+
+/* line 107, ../sass/_mobile.scss */
+#footer-mobile {
+  background: #70c252;
+  bottom: -200px; }
+  /* line 113, ../sass/_mobile.scss */
+  #footer-mobile a {
+    color: white;
+    font-family: Intro;
+    font-size: 12px; }
+    /* line 118, ../sass/_mobile.scss */
+    #footer-mobile a:hover {
+      text-decoration: none; }
+  /* line 124, ../sass/_mobile.scss */
+  #footer-mobile #login-form-mobile,
+  #footer-mobile #register-form-mobile {
+    display: none; }
 
 /* line 2, ../sass/_footer.scss */
 #footer {
