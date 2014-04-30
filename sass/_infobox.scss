@@ -1,0 +1,89 @@
+#infobox {
+	display: block;
+	overflow: hidden;
+	width: 600px;
+	background: rgba(147, 204, 127, 0.69);
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 3;
+
+	.block {
+		display: block;
+		background: black;
+		position: absolute;
+	}
+
+	.bottom {
+		top: 676px;
+		width: 300px;
+		height: 228px;
+		border-top: white 1px solid;
+	}
+
+	#bottomLeft {
+		@extend .block;
+		@extend .bottom;
+		left: 0;
+		border-right: white 1px solid;
+	}
+
+	#bottomRight {
+		@extend .block;
+		@extend .bottom;
+		right: 0;
+	}
+
+	.middle {
+		width: 300px;
+		height: 200px;
+		border-top: white 1px solid;
+		top: 476px;
+	}
+
+	#middleLeft {
+		@extend .block;
+		@extend .middle;
+		left: 0;
+		border-right: white 1px solid;
+	}
+
+	#middleRight {
+		@extend .block;
+		@extend .middle;
+		right: 0;
+		background: transparent;
+	}
+
+	#top {
+		@extend .block;
+		width: 600px;
+		height: 300px;
+		top: 176px;
+	}
+
+	#infoTitle {
+		font-family: $body;
+		font-size: 24px;
+		color: #396927;
+		position: absolute;
+		top: 54px;
+		left: 25px;
+	}
+
+	#infoSubTitle {
+		font-family: $nav;
+		font-size: 18px;
+		color: #396927;
+		position: absolute;
+		top: 94px;
+		left: 25px;
+	}
+
+	button.close {
+		padding-top: 10px;
+		padding-right: 15px;
+	}
+
+}
