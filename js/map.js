@@ -62,4 +62,20 @@ window.onload = function () {
     var map = new google.maps.Map(div, options);
     var styledMapType = new google.maps.StyledMapType(styles, { name: 'Styled' });
     map.mapTypes.set('Styled', styledMapType);
+
+    new google.maps.Marker({
+        position: new google.maps.LatLng(51.527738,-0.102336),
+        map: map,
+        title: 'City University Landaaaaaan!'
+    });
+    new google.maps.Marker({
+        position: new google.maps.LatLng(51.508094,-0.076114,17),
+        map: map,
+        title: 'Tower of Landaaaaaan!'
+    });
+    new google.maps.Marker({
+        position: new google.maps.LatLng(51.524559,-0.13404),
+        map: map,
+        title: 'University College Landaaaaaan!'
+    });
 };
