@@ -154,8 +154,12 @@ window.onload = function () {
         title: 'Theatre Royal Stratford'
     });
 
-        google.maps.event.addListener(conolly, 'click', function() {
+        google.maps.event.addListener(brixton, 'click', function() {
         $("#infobox").animate({width:'600px'}, 250);
         });
+
+        $('.close').click(function() {
+            $('#infobox').animate({width:'0'}, 250);
+        })
     
 };

@@ -64,13 +64,13 @@
        <div id="infobox">
            <div class="info-wrap">
             <button type="button" class="close" aria-hidden="true">&times;</button>
-            <div id="infoTitle">columbia road flower market</div>
+            <div id="infoTitle">brixton rec</div>
             <div id="infoSubTitle">Emma, 43</div>
-            <dix id="top"></dix>
-            <div id="middleLeft"></div>
+            <dix id="top"><img src="img/brixton_rec/brixton1.jpg"></dix>
+            <div id="middleLeft" style="height:228px; width:299px" ><img height="200px" width="300px" src="img/brixton_rec/brixton2.jpg"></div>
             <div id="middleRight"></div>
-            <div id="bottomLeft"></div>
-            <div id="bottomRight"></div>
+            <div id="bottomLeft"><img height="228px" width="299px" src="img/brixton_rec/brixton3.jpg"></div>
+            <div id="bottomRight"><img height="228px" width="300px" src="img/brixton_rec/brixton4.jpg"></div>
            </div>
        </div>
         <div id="map-canvas"></div>
