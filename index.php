@@ -1,5 +1,6 @@
 <?php include 'header.php' ?>
     <body>
+
         <div class="container">
             <div id="header">
                 <div id="logo-container">
@@ -60,7 +61,20 @@
             </div>
         </div>
 
+       <div id="infobox">
+           <div class="info-wrap">
+            <button type="button" class="close" aria-hidden="true">&times;</button>
+            <div id="infoTitle">columbia road flower market</div>
+            <div id="infoSubTitle">Emma, 43</div>
+            <dix id="top"></dix>
+            <div id="middleLeft"></div>
+            <div id="middleRight"></div>
+            <div id="bottomLeft"></div>
+            <div id="bottomRight"></div>
+           </div>
+       </div>
         <div id="map-canvas"></div>
+
 
         <div id="footer">
             <div id="bottomNav">

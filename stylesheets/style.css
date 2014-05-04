@@ -6309,7 +6309,7 @@ button.close {
   margin-left: 3px; }
 
 /* line 6105, ../sass/_bootstrap.scss */
-.tooltip.bottom {
+.tooltip.bottom, #infobox .tooltip#bottomLeft, #infobox .tooltip#bottomRight {
   padding: 5px 0;
   margin-top: 3px; }
 
@@ -6375,7 +6375,7 @@ button.close {
   border-width: 5px 0 5px 5px; }
 
 /* line 6171, ../sass/_bootstrap.scss */
-.tooltip.bottom .tooltip-arrow {
+.tooltip.bottom .tooltip-arrow, #infobox .tooltip#bottomLeft .tooltip-arrow, #infobox .tooltip#bottomRight .tooltip-arrow {
   top: 0;
   left: 50%;
   margin-left: -5px;
@@ -6424,7 +6424,7 @@ button.close {
   margin-left: 10px; }
 
 /* line 6220, ../sass/_bootstrap.scss */
-.popover.bottom {
+.popover.bottom, #infobox .popover#bottomLeft, #infobox .popover#bottomRight {
   margin-top: 10px; }
 
 /* line 6224, ../sass/_bootstrap.scss */
@@ -6500,7 +6500,7 @@ button.close {
   content: " "; }
 
 /* line 6296, ../sass/_bootstrap.scss */
-.popover.bottom .arrow {
+.popover.bottom .arrow, #infobox .popover#bottomLeft .arrow, #infobox .popover#bottomRight .arrow {
   top: -11px;
   left: 50%;
   margin-left: -11px;
@@ -6509,7 +6509,7 @@ button.close {
   border-top-width: 0; }
 
 /* line 6305, ../sass/_bootstrap.scss */
-.popover.bottom .arrow:after {
+.popover.bottom .arrow:after, #infobox .popover#bottomLeft .arrow:after, #infobox .popover#bottomRight .arrow:after {
   top: 1px;
   margin-left: -10px;
   border-bottom-color: #ffffff;
@@ -7399,35 +7399,104 @@ body {
       /* line 6, ../sass/_main.scss */
       body #map-canvas {
         bottom: 0px; } }
-  /* line 20, ../sass/_main.scss */
+  /* line 28, ../sass/_main.scss */
   body .container #header {
     position: absolute;
     top: 50px;
     width: 100%;
     z-index: 3;
     left: 0; }
-    /* line 27, ../sass/_main.scss */
+    /* line 35, ../sass/_main.scss */
     body .container #header #logo-container {
       position: relative;
       left: 50%;
       margin: 0 0 20px -98px;
       height: 78px;
       width: 197px; }
-      /* line 34, ../sass/_main.scss */
+      /* line 42, ../sass/_main.scss */
       body .container #header #logo-container #logo {
         display: block; }
-    /* line 39, ../sass/_main.scss */
+    /* line 47, ../sass/_main.scss */
     body .container #header #topNav {
       position: relative;
       width: 283px;
       margin: 0 auto; }
-      /* line 45, ../sass/_main.scss */
+      /* line 53, ../sass/_main.scss */
       body .container #header #topNav ul {
         overflow: hidden; }
-        /* line 48, ../sass/_main.scss */
+        /* line 56, ../sass/_main.scss */
         body .container #header #topNav ul li {
           float: left;
           margin-left: 15px; }
+
+/* line 1, ../sass/_infobox.scss */
+#infobox {
+  display: block;
+  overflow: hidden;
+  width: 0;
+  background: rgba(147, 204, 127, 0.69);
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 3; }
+  /* line 12, ../sass/_infobox.scss */
+  #infobox .block, #infobox #bottomLeft, #infobox #bottomRight, #infobox #middleLeft, #infobox #middleRight, #infobox #top {
+    display: block;
+    background: black;
+    position: absolute; }
+  /* line 18, ../sass/_infobox.scss */
+  #infobox .bottom, #infobox #bottomLeft, #infobox #bottomRight {
+    top: 676px;
+    width: 300px;
+    height: 228px;
+    border-top: white 1px solid; }
+  /* line 25, ../sass/_infobox.scss */
+  #infobox #bottomLeft {
+    left: 0;
+    border-right: white 1px solid; }
+  /* line 32, ../sass/_infobox.scss */
+  #infobox #bottomRight {
+    right: 0; }
+  /* line 38, ../sass/_infobox.scss */
+  #infobox .middle, #infobox #middleLeft, #infobox #middleRight {
+    width: 300px;
+    height: 200px;
+    border-top: white 1px solid;
+    top: 476px; }
+  /* line 45, ../sass/_infobox.scss */
+  #infobox #middleLeft {
+    left: 0;
+    border-right: white 1px solid; }
+  /* line 52, ../sass/_infobox.scss */
+  #infobox #middleRight {
+    right: 0;
+    background: transparent; }
+  /* line 59, ../sass/_infobox.scss */
+  #infobox #top {
+    width: 600px;
+    height: 300px;
+    top: 176px; }
+  /* line 66, ../sass/_infobox.scss */
+  #infobox #infoTitle {
+    font-family: Intro;
+    font-size: 24px;
+    color: #396927;
+    position: absolute;
+    top: 54px;
+    left: 25px; }
+  /* line 75, ../sass/_infobox.scss */
+  #infobox #infoSubTitle {
+    font-family: AverageSans;
+    font-size: 18px;
+    color: #396927;
+    position: absolute;
+    top: 94px;
+    left: 25px; }
+  /* line 84, ../sass/_infobox.scss */
+  #infobox button.close {
+    padding-top: 10px;
+    padding-right: 15px; }
 
 /* line 1, ../sass/_mobile.scss */
 #logo-container-mobile {
