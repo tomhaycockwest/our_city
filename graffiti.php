@@ -1,5 +1,5 @@
 <button type="button" class="close" aria-hidden="true">&times;</button>
-<div id="infoTitle" class="graffiti">graffiti tunnel</div>
+<div id="infoTitle" class="graffiti">Graffiti Tunnel, Waterloo</div>
 <div id="infoSubTitle">Luke, 19</div>
 <dix id="top">
     <video controls src="img/brixton_rec/dali.mp4" id="player1" width="600" height="300"></video>
