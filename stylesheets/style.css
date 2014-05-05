@@ -8335,7 +8335,7 @@ body {
 #infobox {
   display: block;
   overflow: hidden;
-  width: 600px;
+  width: 0;
   background: rgba(147, 204, 127, 0.69);
   position: absolute;
   left: 0;

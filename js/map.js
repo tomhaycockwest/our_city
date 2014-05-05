@@ -50,24 +50,6 @@ function setVideo() {
 }
 
 
-setVideo();
-
-$('#middleLeft').click(function () {
-    $('#top').css('padding', '0').html("<video controls src='img/brixton_rec/ripples.mp4' id='player1' width='600' height='300'></video>");
-    setVideo()
-});
-
-$('#middleRight').click(function () {
-    $('#top').css('padding', '20px').html("<p>I spent countless days many that even I can't recollect here Leant back in my buggy watching my Dads intensely religious, rigorous training. As me and my siblings grew we were soon inheriting, somewhat forcefully these same rigorous training efforts, always rewarded with a pattie and cool aid. As we grew further Brixton became the nucleus of many of my first struggles as a young, more specifically a young black man growing in and through a particular experience in such an intense environment. Why this all defines London somewhat to me, as can we? Is because as we wander through the social, emotional, cultural and even structural maze that is London, it for me has grown into a symbol of defiance, an expression of our innate human nature. Like the early memories of watching my pops defy what were profound odds in the gym to watching the community do the same by sheer existence, especially growing up on the stories and overheard and heated conversations outside 'Reds Records' amongst my Father and other London Born 'Black' men and women, of the many fights fought to preserve and expand an identity specific to them like so many others who sailed ships of adverse origin and destination.</p>");
-});
-
-$('#bottomLeft').click(function () {
-    $('#top').css('padding', '0').html("<img height='300px' width='600px' src='img/brixton_rec/brixton3.jpg'>");
-});
-
-$('#bottomRight').click(function () {
-    $('#top').css('padding', '0').html("<img height='300px' width='600px' src='img/brixton_rec/brixton4.jpg'>");
-});
 
 
 
@@ -224,11 +206,72 @@ $('#bottomRight').click(function () {
     });
 
         google.maps.event.addListener(brixton, 'click', function() {
-        $("#infobox").animate({width:'600px'}, 250);
+            $('.info-wrap').load('brixton.php');
+            setTimeout(function(){setVideo();}, 250);
+            $("#infobox").animate({width:'600px'}, 250);
+            setTimeout(function(){clicks();}, 300);
+        });
+
+        google.maps.event.addListener(graffiti, 'click', function() {
+            $('.info-wrap').load('graffiti.php');
+            setTimeout(function(){setVideo();}, 250);
+            $("#infobox").animate({width:'600px'}, 250);
+            setTimeout(function(){clicks();}, 300);
+        });
+
+       
+
+        function clicks() {
+        var middleLeft = '';
+        var middleRight = '';
+        var bottomLeft = '';
+        var bottomRight = '';
+
+        var className = $('#infoTitle').attr('class');
+        switch(className){
+            case 'brixton':
+            middleLeft = '<video controls src="img/brixton_rec/ripples.mp4" id="player1" width="600" height="300"></video>';
+            middleRight = "<p>I spent countless days many that even I can't recollect here Leant back in my buggy watching my Dads intensely religious, rigorous training. As me and my siblings grew we were soon inheriting, somewhat forcefully these same rigorous training efforts, always rewarded with a pattie and cool aid. As we grew further Brixton became the nucleus of many of my first struggles as a young, more specifically a young black man growing in and through a particular experience in such an intense environment. Why this all defines London somewhat to me, as can we? Is because as we wander through the social, emotional, cultural and even structural maze that is London, it for me has grown into a symbol of defiance, an expression of our innate human nature. Like the early memories of watching my pops defy what were profound odds in the gym to watching the community do the same by sheer existence, especially growing up on the stories and overheard and heated conversations outside 'Reds Records' amongst my Father and other London Born 'Black' men and women, of the many fights fought to preserve and expand an identity specific to them like so many others who sailed ships of adverse origin and destination.</p>";
+            bottomLeft = "<img height='300px' width='600px' src='img/brixton_rec/brixton3.jpg'>";
+            bottomRight = "<img height='300px' width='600px' src='img/brixton_rec/brixton4.jpg'>"
+            break;
+            case 'graffiti':
+            middleLeft = '<video controls src="img/brixton_rec/ripples.mp4" id="player1" width="600" height="300"></video>';
+            middleRight = "<p>South of the river is already a buzzing area, you can walk along and see pop-up markets, buskers, skaters, magicians, it’s crazy. But for me the Graffiti Tunnel along Leake Street perfectly sums up the creativity and street art that’s so big across London. I first visited the tunnel maybe in 2008 with my family for the Cans Festival set up by Banksy, someone I was already in awe of, there were massive queues and we waited for hours. I’ll never forget first entering the tunnel and being so overwhelmed by what filled the walls. Walking through it was like another world. Now people are constantly adding to the wall and I love it because you could walk down there and two days later what you saw may be covered by something else. It’s kind of eerie and almost like walking through a story, but I love it because there is so much street art in London, and this is a place where people can express their creativity freely, it’s so easy to get lost in.</p>";
+            bottomLeft = "<img height='300px' width='600px' src='img/graffiti_tunnel/graff3.jpg'>";
+            bottomRight = "<img height='300px' width='600px' src='img/graffiti_tunnel/graff4.jpg'>"
+            break;
+        }
+
+
+
+
+
+
+
+
+        $('#middleLeft').click(function () {
+            $('#top').css('padding', '0').html(middleLeft);
+            setVideo()
+        });
+
+        $('#middleRight').click(function () {
+            $('#top').css('padding', '20px').html(middleRight);
+        });
+
+        $('#bottomLeft').click(function () {
+            $('#top').css('padding', '0').html(bottomLeft);
+        });
+
+        $('#bottomRight').click(function () {
+            $('#top').css('padding', '0').html(bottomRight);
         });
 
         $('.close').click(function() {
             $('#infobox').animate({width:'0'}, 250);
         })
+        }
+
+
     
 };
