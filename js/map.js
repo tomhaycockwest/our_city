@@ -3,6 +3,75 @@ window.onload = function () {
     var useragent = navigator.userAgent;
     var mapdiv = document.getElementById("map-canvas");
 
+function setVideo() {
+    $('video').mediaelementplayer({
+        // if the <video width> is not specified, this is the default
+        defaultVideoWidth: 600,
+        // if the <video height> is not specified, this is the default
+        defaultVideoHeight: 300,
+        // if set, overrides <video width>
+        videoWidth: -1,
+        // if set, overrides <video height>
+        videoHeight: -1,
+        // width of audio player
+        audioWidth: 600,
+        // height of audio player
+        audioHeight: 300,
+        // initial volume when the player starts
+        startVolume: 0.8,
+        // useful for <audio> player loops
+        loop: false,
+        // enables Flash and Silverlight to resize to content size
+        enableAutosize: true,
+        // the order of controls you want on the control bar (and other plugins below)
+        features: ['playpause','progress','current','duration','volume'],
+        // Hide controls when playing and mouse is not over the video
+        alwaysShowControls: false,
+        // force iPad's native controls
+        iPadUseNativeControls: false,
+        // force iPhone's native controls
+        iPhoneUseNativeControls: false, 
+        // force Android's native controls
+        AndroidUseNativeControls: false,
+        // forces the hour marker (##:00:00)
+        alwaysShowHours: false,
+        // show framecount in timecode (##:00:00:00)
+        showTimecodeFrameCount: false,
+        // used when showTimecodeFrameCount is set to true
+        framesPerSecond: 25,
+        // turns keyboard support on and off for this instance
+        enableKeyboard: true,
+        // when this player starts, it will pause other players
+        pauseOtherPlayers: true,
+        // array of keyboard commands
+        keyActions: [],
+    });
+
+}
+
+
+setVideo();
+
+$('#middleLeft').click(function () {
+    $('#top').css('padding', '0').html("<video controls src='img/brixton_rec/ripples.mp4' id='player1' width='600' height='300'></video>");
+    setVideo()
+});
+
+$('#middleRight').click(function () {
+    $('#top').css('padding', '20px').html("<p>I spent countless days many that even I can't recollect here Leant back in my buggy watching my Dads intensely religious, rigorous training. As me and my siblings grew we were soon inheriting, somewhat forcefully these same rigorous training efforts, always rewarded with a pattie and cool aid. As we grew further Brixton became the nucleus of many of my first struggles as a young, more specifically a young black man growing in and through a particular experience in such an intense environment. Why this all defines London somewhat to me, as can we? Is because as we wander through the social, emotional, cultural and even structural maze that is London, it for me has grown into a symbol of defiance, an expression of our innate human nature. Like the early memories of watching my pops defy what were profound odds in the gym to watching the community do the same by sheer existence, especially growing up on the stories and overheard and heated conversations outside 'Reds Records' amongst my Father and other London Born 'Black' men and women, of the many fights fought to preserve and expand an identity specific to them like so many others who sailed ships of adverse origin and destination.</p>");
+});
+
+$('#bottomLeft').click(function () {
+    $('#top').css('padding', '0').html("<img height='300px' width='600px' src='img/brixton_rec/brixton3.jpg'>");
+});
+
+$('#bottomRight').click(function () {
+    $('#top').css('padding', '0').html("<img height='300px' width='600px' src='img/brixton_rec/brixton4.jpg'>");
+});
+
+
+
+
     if (useragent.indexOf('iPhone') !== -1 || useragent.indexOf('Android') !== -1 ) {
         styles = [
             {

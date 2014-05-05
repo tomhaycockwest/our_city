@@ -7492,11 +7492,11 @@ td.visible-print {
   height: 16px;
   width: 16px;
   border: 0;
-  background: transparent url(controls.svg) no-repeat; }
+  background: transparent url(../img/controls.svg) no-repeat; }
 
 /* line 184, ../sass/_mediaelementplayer.scss */
 .no-svg .mejs-controls .mejs-button button {
-  background-image: url(controls.png); }
+  background-image: url(../img/controls.png); }
 
 /* :focus for accessibility */
 /* line 189, ../sass/_mediaelementplayer.scss */
@@ -8345,8 +8345,8 @@ body {
   /* line 12, ../sass/_infobox.scss */
   #infobox .block, #infobox #bottomLeft, #infobox #bottomRight, #infobox #middleLeft, #infobox #middleRight, #infobox #top {
     display: block;
-    background: black;
-    position: absolute; }
+    position: absolute;
+    cursor: pointer; }
   /* line 18, ../sass/_infobox.scss */
   #infobox .bottom, #infobox #bottomLeft, #infobox #bottomRight {
     top: 676px;
@@ -8373,13 +8373,21 @@ body {
   /* line 52, ../sass/_infobox.scss */
   #infobox #middleRight {
     right: 0;
-    background: transparent; }
-  /* line 59, ../sass/_infobox.scss */
+    background: transparent;
+    padding: 20px;
+    overflow: scroll;
+    font-family: AverageSans;
+    color: #396927;
+    overflow: hidden; }
+  /* line 64, ../sass/_infobox.scss */
   #infobox #top {
     width: 600px;
     height: 300px;
-    top: 176px; }
-  /* line 66, ../sass/_infobox.scss */
+    top: 176px;
+    overflow: scroll;
+    font-family: AverageSans;
+    color: #396927; }
+  /* line 74, ../sass/_infobox.scss */
   #infobox #infoTitle {
     font-family: Intro;
     font-size: 24px;
@@ -8387,7 +8395,7 @@ body {
     position: absolute;
     top: 54px;
     left: 25px; }
-  /* line 75, ../sass/_infobox.scss */
+  /* line 83, ../sass/_infobox.scss */
   #infobox #infoSubTitle {
     font-family: AverageSans;
     font-size: 18px;
@@ -8395,7 +8403,7 @@ body {
     position: absolute;
     top: 94px;
     left: 25px; }
-  /* line 84, ../sass/_infobox.scss */
+  /* line 92, ../sass/_infobox.scss */
   #infobox button.close {
     padding-top: 10px;
     padding-right: 15px; }

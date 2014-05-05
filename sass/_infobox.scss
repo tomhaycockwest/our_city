@@ -11,8 +11,8 @@
 
 	.block {
 		display: block;
-		background: black;
 		position: absolute;
+		cursor: pointer;
 	}
 
 	.bottom {
@@ -54,6 +54,11 @@
 		@extend .middle;
 		right: 0;
 		background: transparent;
+		padding: 20px;
+		overflow: scroll;
+		font-family: $nav;
+		color: #396927;
+		overflow: hidden;
 	}
 
 	#top {
@@ -61,6 +66,9 @@
 		width: 600px;
 		height: 300px;
 		top: 176px;
+		overflow: scroll;
+		font-family: $nav;
+		color: #396927;
 	}
 
 	#infoTitle {
