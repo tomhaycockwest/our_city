@@ -1,10 +1,10 @@
 #infobox {
 	display: block;
 	overflow: hidden;
-	width: 0;
+	width: 600px;
 	background: rgba(147, 204, 127, 0.69);
 	position: absolute;
-	left: 0;
+	left: -600px;
 	top: 0;
 	bottom: 0;
 	z-index: 3;
@@ -20,6 +20,19 @@
 		width: 300px;
 		height: 228px;
 		border-top: white 1px solid;
+		background: black;
+		opacity: .75;
+
+		&:hover {
+			-webkit-animation: fadein 0.25s;
+			-webkit-animation-fill-mode: forwards;
+			-moz-animation:    fadein 0.25s;
+			-moz-animation-fill-mode: forwards;
+			-o-animation:      fadein 0.25s;
+			-o-animation-fill-mode: forwards;
+			animation:         fadein 0.25s;
+			animation-fill-mode: forwards;
+		}
 	}
 
 	#bottomLeft {
@@ -40,6 +53,18 @@
 		height: 200px;
 		border-top: white 1px solid;
 		top: 476px;
+		opacity: .75;
+
+		&:hover {
+			-webkit-animation: fadein 0.25s;
+			-webkit-animation-fill-mode: forwards;
+			-moz-animation:    fadein 0.25s;
+			-moz-animation-fill-mode: forwards;
+			-o-animation:      fadein 0.25s;
+			-o-animation-fill-mode: forwards;
+			animation:         fadein 0.25s;
+			animation-fill-mode: forwards;
+		}
 	}
 
 	#middleLeft {

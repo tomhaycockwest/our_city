@@ -203,7 +203,7 @@ function setVideo() {
         google.maps.event.addListener(brixton, 'click', function() {
             $('.info-wrap').load('brixton.php');
             setTimeout(function(){setVideo();}, 250);
-            $("#infobox").animate({width:'600px'}, 250);
+            $("#infobox").animate({left:'0'}, 250);
             setTimeout(function(){clicks();}, 300);
         });
 
@@ -292,7 +292,7 @@ function setVideo() {
 
         $('#middleLeft').click(function () {
             $('#top').css('padding', '0').html(middleLeft);
-            setVideo()
+            setVideo();
         });
 
         $('#middleRight').click(function () {
@@ -308,8 +308,8 @@ function setVideo() {
         });
 
         $('.close').click(function() {
-            $('#infobox').animate({width:'0'}, 250);
-        })
+            $('#infobox').animate({left:'-600px'}, 250);
+        });
         }
 
 };
