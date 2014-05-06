@@ -88,7 +88,8 @@
 	@include box-sizing(border-box);
 }
 
-#about-menu{
+#about-menu,
+#myldn-menu{
 	@extend .bottom-menu;
 
 	p {

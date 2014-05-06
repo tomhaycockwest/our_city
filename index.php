@@ -77,38 +77,20 @@
         <div id="footer">
             <div id="bottomNav">
                 <ul>
-                    <li><a id="filter" href="#">filter</a></li>
                     <li><a id="about" href="#">about</a></li>
-                    <li><a id="join" href="#">join</a></li>
-                    <li><a id="login" href="#">login</a></li>
+                    <li><a id="myldn" href="#">my ldn</a></li>
+                    <li><a href="http://blog.ourcityldn.com" target="_blank">blog</a></li>
+                    <li><a href="#">trailer</a></li>
                 </ul>
             </div>
         </div>
 
-        <div id="filter-menu">
-            <ul>
-                <li>North</li>
-                <li>North West</li>
-                <li>West</li>
-                <li>South</li>
-                <li>South West</li>
-                <li>South East</li>
-                <li>East</li>
-                <li>Central</li>
-                <li>Historical</li>
-                <li>Nature</li>
-                <li>Art</li>
-                <li>Culture</li>
-                <li>Music</li>
-                <li>Shopping</li>
-                <li>Food &amp; Drink</li>
-                <li>Hidden Gems</li>
-                <li class="selected">My London</li>
-            </ul>
-        </div>
-
         <div id="about-menu">
             <p>Our City LDN is a unqiue way to interact with the city, allowing you to upload pictures, video clips, quotes and audio that you come across in london life. Aiming to connect the people of London and those who love the city by allowing you the people to build up a map of what really makes London so special. Explore the diversity and ever growing nature of the city. Whether it’s a family run bakery tucked away in a backstreet of Shoreditch, or the sounds of the underground, share your favourite things about London and discover new ones along the way.</p>
+        </div>
+
+        <div id="myldn-menu">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ipsum nunc, in auctor sem mollis eu. Nam sit amet orci sit amet ipsum scelerisque tristique ut ac leo. Aliquam consequat hendrerit nisi, a rhoncus orci elementum et. Vestibulum in ipsum non nibh pellentesque facilisis dictum ut nisl. Maecenas nec malesuada ligula. Curabitur a aliquam massa. Aenean convallis magna imperdiet, malesuada dolor sit amet, ultrices massa. Integer sit amet odio nisi. Nullam pretium ipsum molestie enim posuere semper.</p>
         </div>
 
         <div id="join-menu">

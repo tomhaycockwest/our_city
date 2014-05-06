@@ -20,13 +20,44 @@ $('#video').hover(function() {
 
 // Footer Menu
 
-$('#filter').click(function() {
-	$('#filter-menu').toggleClass('active');
-	$(this).toggleClass('highlighted');
+var ldnmenu = "closed";
+var aboutmenu = "closed";
+
+$('#myldn').click(function() {
+	$('#about-menu').removeClass('active');
+	$('#about').removeClass('highlighted');
+	aboutmenu = "closed";
+	if (ldnmenu === "closed") {
+		$('#myldn-menu').addClass('active');
+		$(this).addClass('highlighted');
+		ldnmenu = "open";
+	} else if (ldnmenu === "open") {
+		$('#myldn-menu').removeClass('active');
+		$(this).removeClass('highlighted');
+		ldnmenu = "closed";
+	}
+
 });
 
 $('#about').click(function() {
+	$('#myldn-menu').removeClass('active');
+	$('#myldn').removeClass('highlighted');
+	ldnmenu = "closed";
+	if (aboutmenu === "closed") {
+		$('#about-menu').removeClass('active');
+		$(this).removeClass('highlighted');
+		aboutmenu = "open";
+	} else if (aboutmenu === "open") {
+		$('#about-menu').addClass('active');
+		$(this).addClass('highlighted');
+		aboutmenu = "closed";
+	}
+});
+
+
+$('#about').click(function() {
 	$('#about-menu').toggleClass('active');
+
 	$(this).toggleClass('highlighted');
 });
 
