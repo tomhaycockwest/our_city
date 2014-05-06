@@ -1,6 +1,6 @@
 #infobox {
 	display: block;
-	overflow: hidden;
+	overflow: scroll;
 	width: 600px;
 	background: rgba(147, 204, 127, 0.69);
 	position: absolute;
@@ -15,8 +15,23 @@
 		cursor: pointer;
 	}
 
+	#text {
+		display: block;
+		position: absolute;
+		top: 933px;
+		width: 600px;
+		padding: 20px;
+		font-family: $nav;
+		color: #396927;
+
+		p:last-child {
+			margin-bottom: 70px;
+		}
+
+	}
+
 	.bottom {
-		top: 676px;
+		top: 704px;
 		width: 300px;
 		height: 228px;
 		border-top: white 1px solid;
@@ -50,7 +65,7 @@
 
 	.middle {
 		width: 300px;
-		height: 200px;
+		height: 228px;
 		border-top: white 1px solid;
 		top: 476px;
 		opacity: .75;
@@ -78,12 +93,6 @@
 		@extend .block;
 		@extend .middle;
 		right: 0;
-		background: transparent;
-		padding: 20px;
-		overflow: scroll;
-		font-family: $nav;
-		color: #396927;
-		overflow: hidden;
 	}
 
 	#top {

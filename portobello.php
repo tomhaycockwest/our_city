@@ -2,9 +2,10 @@
 <div id="infoTitle" class="portobello">Portobello Road</div>
 <div id="infoSubTitle">Tom, 22,</div>
 <dix id="top">
-    <video controls src="img/brixton_rec/dali.mp4" id="player1" width="600" height="300"></video>
+    <img height="300px" width="600px" src="img/portobello_rd/porto1.jpg">
 </dix>
-<div id="middleLeft"><img height="200px" width="300px" src="img/portobello_rd/porto2.jpg"></div>
-<div id="middleRight"><p>The first time i ever came here I past it so many times by the time I found it it was closed. I love cooking and experimenting with food, London’s great for that. Usually apart from the sides every time you come here there’s a different main. You never know what you’re going to get, and also, I mean the place is hidden, it’s not obvious...</p></div>
+<div id="middleLeft"><img height="228px" width="299px" src="img/portobello_rd/porto1.jpg"></div>
+<div id="middleRight"><img height="228px" width="300px" src="img/portobello_rd/porto2.jpg"></div>
 <div id="bottomLeft"><img height="228px" width="299px" src="img/portobello_rd/porto3.jpg"></div>
 <div id="bottomRight"><img height="228px" width="300px" src="img/portobello_rd/porto4.jpg"></div>
+<div id="text"><p>What’s happened was, my best friends dad has a stall here and we used to come up here when we were kids, we’d go to the skate parks round here and we used to like…knock about, not cause trouble but just be kids and it was great. Then i started working at the stall when I was 15 and that was absolutely great, probably the best time of my life, it was good. An pie and mash is just up the road which I love, it’s my favourite food in the world. Cockneys is a fantastic establishment, Ruth’s lovely. I’ve got lots of memories and now my friends sister lives at the top of Portobello Road, and out of all the places in London this is the most significant place for me because I spend so much time here, my whole entire life.</p></div>
