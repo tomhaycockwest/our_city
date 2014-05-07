@@ -104,125 +104,129 @@ function setVideo() {
 
     }
 
+   
     var iconBase = 'img/photo_pins/';
-    var div = document.getElementById('map-canvas');
-    var map = new google.maps.Map(div, options);
-    var styledMapType = new google.maps.StyledMapType(styles, { name: 'Styled' });
-    map.mapTypes.set('Styled', styledMapType);
+    function markers() {
 
-    var conolly = new google.maps.Marker({
-        position: new google.maps.LatLng(51.5109643,-0.3403185),
-        map: map,
-        animation: google.maps.Animation.DROP,
-        title: 'Conolly Dell',
-        icon: iconBase + 'conolly_dell.png'
-    });
-    var golborne = new google.maps.Marker({
-        position: new google.maps.LatLng(51.5241384,-0.204138),
-        map: map,
-        animation: google.maps.Animation.DROP,
-        title: 'Golborne Rd',
-        icon: iconBase + 'golborne.png'
-    });
-    var hyde = new google.maps.Marker({
-        position: new google.maps.LatLng(51.507268,-0.16573),
-        map: map,
-        animation: google.maps.Animation.DROP,
-        title: 'Hyde Park',
-        icon: iconBase + 'hyde_park.png'
-    });
-    var brixton = new google.maps.Marker({
-        position: new google.maps.LatLng(51.46382,-0.113125),
-        map: map,
-        animation: google.maps.Animation.DROP,
-        title: 'Brixton Rec',
-        icon: iconBase + 'brixton.png'
-    });
-    var grapes = new google.maps.Marker({
-        position: new google.maps.LatLng(51.508892,-0.033927),
-        map: map,
-        animation: google.maps.Animation.DROP,
-        title: 'The Grapes',
-        icon: iconBase + 'grapes.png'
-    });
-    var acton = new google.maps.Marker({
-        position: new google.maps.LatLng(51.516479,-0.267204),
-        map: map,
-        animation: google.maps.Animation.DROP,
-        title: 'North Acton',
-        icon: iconBase + 'acton.png'
-    });
-    var royal = new google.maps.Marker({
-        position: new google.maps.LatLng(51.492574,-0.156634),
-        map: map,
-        animation: google.maps.Animation.DROP,
-        title: 'Royal Court Theatre',
-        icon: iconBase + 'sloane_sq.png'
-    });
-    var portobello = new google.maps.Marker({
-        position: new google.maps.LatLng(51.5169408,-0.205813),
-        map: map,
-        animation: google.maps.Animation.DROP,
-        title: 'Portobello Road',
-        icon: iconBase + 'portobello.png'
-    });
-    var strand = new google.maps.Marker({
-        position: new google.maps.LatLng(51.4876343,-0.2859077),
-        map: map,
-        animation: google.maps.Animation.DROP,
-        title: 'Strand on the Green',
-        icon: iconBase + 'strand.png'
-    });
-    var sounds = new google.maps.Marker({
-        position: new google.maps.LatLng(51.513939,-0.134622),
-        map: map,
-        animation: google.maps.Animation.DROP,
-        title: 'Sounds of the Universe',
-        icon: iconBase + 'sounds_universe.png'
-    });
-    var pitt = new google.maps.Marker({
-        position: new google.maps.LatLng(51.513343,-0.138366),
-        map: map,
-        animation: google.maps.Animation.DROP,
-        title: 'Pitt Cue',
-        icon: iconBase + 'pitt_cue.png'
-    });
-    var columbia = new google.maps.Marker({
-        position: new google.maps.LatLng(51.529422,-0.069571),
-        map: map,
-        animation: google.maps.Animation.DROP,
-        title: 'Columbia Road Flower Market',
-        icon: iconBase + 'columbia_rd.png'
-    });
-    var richmond = new google.maps.Marker({
-        position: new google.maps.LatLng(51.442687,-0.283707),
-        map: map,
-        animation: google.maps.Animation.DROP,
-        title: 'Richmond Park',
-        icon: iconBase + 'richmond.png'
-    });
-    var graffiti = new google.maps.Marker({
-        position: new google.maps.LatLng(51.5013532,-0.1147415),
-        map: map,
-        animation: google.maps.Animation.DROP,
-        title: 'Graffiti Tunnel',
-        icon: iconBase + 'graffiti.png'
-    });
-    var theatre = new google.maps.Marker({
-        position: new google.maps.LatLng(51.542413,0.001046),
-        map: map,
-        animation: google.maps.Animation.DROP,
-        title: 'Theatre Royal Stratford',
-        icon: iconBase + 'stratford.png'
-    });
-    var vanda = new google.maps.Marker({
-        position: new google.maps.LatLng(51.496576,-0.172172),
-        map: map,
-        animation: google.maps.Animation.DROP,
-        title: 'Victoria and Albert Museum',
-        icon: iconBase + 'va.png'
-    });
+        var div = document.getElementById('map-canvas');
+        var map = new google.maps.Map(div, options);
+        var styledMapType = new google.maps.StyledMapType(styles, { name: 'Styled' });
+        map.mapTypes.set('Styled', styledMapType);
 
+        var conolly = new google.maps.Marker({
+            position: new google.maps.LatLng(51.5109643,-0.3403185),
+            map: map,
+            animation: google.maps.Animation.DROP,
+            title: 'Conolly Dell',
+            icon: iconBase + 'conolly_dell.png'
+        });
+        var golborne = new google.maps.Marker({
+            position: new google.maps.LatLng(51.5241384,-0.204138),
+            map: map,
+            animation: google.maps.Animation.DROP,
+            title: 'Golborne Rd',
+            icon: iconBase + 'golborne.png'
+        });
+        var hyde = new google.maps.Marker({
+            position: new google.maps.LatLng(51.507268,-0.16573),
+            map: map,
+            animation: google.maps.Animation.DROP,
+            title: 'Hyde Park',
+            icon: iconBase + 'hyde_park.png'
+        });
+        var brixton = new google.maps.Marker({
+            position: new google.maps.LatLng(51.46382,-0.113125),
+            map: map,
+            animation: google.maps.Animation.DROP,
+            title: 'Brixton Rec',
+            icon: iconBase + 'brixton.png'
+        });
+        var grapes = new google.maps.Marker({
+            position: new google.maps.LatLng(51.508892,-0.033927),
+            map: map,
+            animation: google.maps.Animation.DROP,
+            title: 'The Grapes',
+            icon: iconBase + 'grapes.png'
+        });
+        var acton = new google.maps.Marker({
+            position: new google.maps.LatLng(51.516479,-0.267204),
+            map: map,
+            animation: google.maps.Animation.DROP,
+            title: 'North Acton',
+            icon: iconBase + 'acton.png'
+        });
+        var royal = new google.maps.Marker({
+            position: new google.maps.LatLng(51.492574,-0.156634),
+            map: map,
+            animation: google.maps.Animation.DROP,
+            title: 'Royal Court Theatre',
+            icon: iconBase + 'sloane_sq.png'
+        });
+        var portobello = new google.maps.Marker({
+            position: new google.maps.LatLng(51.5169408,-0.205813),
+            map: map,
+            animation: google.maps.Animation.DROP,
+            title: 'Portobello Road',
+            icon: iconBase + 'portobello.png'
+        });
+        var strand = new google.maps.Marker({
+            position: new google.maps.LatLng(51.4876343,-0.2859077),
+            map: map,
+            animation: google.maps.Animation.DROP,
+            title: 'Strand on the Green',
+            icon: iconBase + 'strand.png'
+        });
+        var sounds = new google.maps.Marker({
+            position: new google.maps.LatLng(51.513939,-0.134622),
+            map: map,
+            animation: google.maps.Animation.DROP,
+            title: 'Sounds of the Universe',
+            icon: iconBase + 'sounds_universe.png'
+        });
+        var pitt = new google.maps.Marker({
+            position: new google.maps.LatLng(51.513343,-0.138366),
+            map: map,
+            animation: google.maps.Animation.DROP,
+            title: 'Pitt Cue',
+            icon: iconBase + 'pitt_cue.png'
+        });
+        var columbia = new google.maps.Marker({
+            position: new google.maps.LatLng(51.529422,-0.069571),
+            map: map,
+            animation: google.maps.Animation.DROP,
+            title: 'Columbia Road Flower Market',
+            icon: iconBase + 'columbia_rd.png'
+        });
+        var richmond = new google.maps.Marker({
+            position: new google.maps.LatLng(51.442687,-0.283707),
+            map: map,
+            animation: google.maps.Animation.DROP,
+            title: 'Richmond Park',
+            icon: iconBase + 'richmond.png'
+        });
+        var graffiti = new google.maps.Marker({
+            position: new google.maps.LatLng(51.5013532,-0.1147415),
+            map: map,
+            animation: google.maps.Animation.DROP,
+            title: 'Graffiti Tunnel',
+            icon: iconBase + 'graffiti.png'
+        });
+        var theatre = new google.maps.Marker({
+            position: new google.maps.LatLng(51.542413,0.001046),
+            map: map,
+            animation: google.maps.Animation.DROP,
+            title: 'Theatre Royal Stratford',
+            icon: iconBase + 'stratford.png'
+        });
+        var vanda = new google.maps.Marker({
+            position: new google.maps.LatLng(51.496576,-0.172172),
+            map: map,
+            animation: google.maps.Animation.DROP,
+            title: 'Victoria and Albert Museum',
+            icon: iconBase + 'va.png'
+        });
+
+        // add click to markers
 
         google.maps.event.addListener(brixton, 'click', function() {
             $('.info-wrap').load('brixton.php');
@@ -326,7 +330,8 @@ function setVideo() {
             $("#infobox").animate({left:'0'}, 250);
             setTimeout(function(){clicks();}, 300);
         });
-
+    }
+    markers();
 
 
 
@@ -460,6 +465,27 @@ function setVideo() {
         $('.close').click(function() {
             $('#infobox').animate({left:'-600px'}, 250);
         });
+
+        $('#trailer').bind( "click", function() {
+            console.log('lk');
+        });
+
+
         }
+
+        $('#camera').click(function() {
+            iconBase = 'img/photo_pins/';
+            markers();
+        });
+
+        $('#audio').click(function() {
+            iconBase = 'img/feeling_pins/';
+            markers();
+        });
+
+        $('#quote').click(function() {
+            iconBase = 'img/quote_pins/';
+            markers();
+        });
 
 };

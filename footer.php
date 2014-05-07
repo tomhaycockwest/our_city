@@ -3,4 +3,4 @@
 <script src="js/map-ck.js" type="text/javascript"></script>
 <script src="js/menu-ck.js" type="text/javascript"></script>
 <script src="js/mediaelement-and-player.min.js" type="text/javascript"></script>
-<script src="js/player-ck.js" type="text/javascript"></script>
+<script src="js/distrib.min.js" type="text/javascript"></script>

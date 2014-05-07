@@ -55,6 +55,8 @@
            </div>
        </div>
 
+
+
        
 
 
@@ -68,7 +70,7 @@
                     <li><a id="about" href="#">about</a></li>
                     <li><a id="myldn" href="#">my ldn</a></li>
                     <li><a href="http://blog.ourcityldn.com" target="_blank">blog</a></li>
-                    <li><a href="#">trailer</a></li>
+                    <li><a id="trailer" href="//www.youtube.com/embed/Nv7Ts4v5_Bs?version=3&autohide=1&autoplay=1&rel=0" class="lightbox">trailer</a></li>
                 </ul>
             </div>
         </div>
