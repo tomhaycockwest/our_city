@@ -1,0 +1,11 @@
+<button type="button" class="close" aria-hidden="true">&times;</button>
+<div id="infoTitle" class="north-acton">North Acton</div>
+<div id="infoSubTitle">Julia, 22</div>
+<dix id="top">
+	<img height="300px" width="600px" src="img/north_acton/acton1.jpg"></img>
+</dix>
+<div id="middleLeft"><img height="228px" width="299px" src="img/north_acton/acton1_thumb.jpg"></div>
+<div id="middleRight"><img height="228px" width="300px" src="img/north_acton/acton2_thumb.jpg"></div>
+<div id="bottomLeft"><img height="228px" width="299px" src="img/north_acton/acton3_thumb.jpg"></div>
+<div id="bottomRight"><img height="228px" width="300px" src="img/north_acton/acton4_thumb.jpg"></div>
+<div id="text"><p>"I wouldn’t change growing up on an estate for the world. I spent my childhood knocking for people and best of all - playing outside. All my mum had to do was shout my name out the door a few times and I knew dinner was ready or it was time to go home. We didn’t have iPads, Smartphones, Facebook or worries, we had run-outs, lobs, conker wars and mc battles.</p><p>Even though looking back it may not have been the best influence, having all your best friends create one big family living on your doorstep is what growing up should be all about. I remember the day I moved in, my classmate hung out the window across the road shouting to me that she lived there. She became my best friend and funnily enough, she still is.</p><p>One day my brother threw eggs at one of the houses and the man came out and chased us for a bit. I spent the rest of the summer worrying that every single doorbell, phone call or even footstep was the man coming to tell my mum what we all did.</p><p>The older boys used to do wheelies up the long road all day, every day. If you could make a wheelie all the way to the end of the road it was like the biggest achievement. I always dreamt of being able to do a wheelie, sometimes I still do!</p><p>Summer was the most fun, getting up and just playing outside for the whole day most days. We would make regular trips to the shops to buy the 20p ice poles, the kind of ones that had so many e-numbers they would stain your tongue blue."</p></div>

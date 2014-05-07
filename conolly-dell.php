@@ -1,0 +1,11 @@
+<button type="button" class="close" aria-hidden="true">&times;</button>
+<div id="infoTitle" class="conolly-dell">Conolly Dell, Hanwell</div>
+<div id="infoSubTitle">Don, 83</div>
+<dix id="top">
+	<video height="300px" width="600px" src="img/conolly_dell/conolly.mp4"></video>
+</dix>
+<div id="middleLeft"><img height="228px" width="299px" src="img/conolly_dell/con_dell1_thumb.jpg"></div>
+<div id="middleRight"><img height="228px" width="300px" src="img/conolly_dell/con_dell2_thumb.jpg"></div>
+<div id="bottomLeft"><img height="228px" width="299px" src="img/conolly_dell/con_dell3_thumb.jpg"></div>
+<div id="bottomRight"><img height="228px" width="300px" src="img/conolly_dell/con_dell4_thumb.jpg"></div>
+<div id="text"><p>"When I was about 6 (in 1937), my friend William and I were playing in Conolly Dell, which had been part of Dr John Conolly’s garden (the first man to treat mentally ill patients humanely.) There was a lake in the middle – an idyllic spot - and there we were, William and I, after school one afternoon, chasing a couple of girls or three through the aucuba bushes. I expect they were screaming in delighted fear.  Suddenly a large, heavily moustachioed park-keeper, in green uniform, peaked cap and large, sonorous black boots, appeared from nowhere and William and I ran away. I guess he frightened the girls into giving him our names.</p><p>At school the next morning, William who was at the door, called out to me "the Parkie  has come!".  I ran to the door and sure enough I saw his large boots and heard his heavy tread going up the stairs to Miss Stevens' office.  Graham and I ran out into the playground and hid in the boys' lavatories.  We were terrified.</p><p>Sheepishly we emerged and nervously marched up the stairs to Miss Stevens', the Headmistress’s office.  We were caned twice on our right hands. I can still hear the swish of the cane as it came down on our trembling palms. It stung a bit, but we were relieved not to be sent to prison which we thought would be our fate.  I vowed never to trust women again."</p></div>

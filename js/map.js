@@ -199,6 +199,12 @@ function setVideo() {
         animation: google.maps.Animation.DROP,
         title: 'Theatre Royal Stratford'
     });
+    var vanda = new google.maps.Marker({
+        position: new google.maps.LatLng(51.496576,-0.172172),
+        map: map,
+        animation: google.maps.Animation.DROP,
+        title: 'Victoria and Albert Museum'
+    });
 
         google.maps.event.addListener(brixton, 'click', function() {
             $('.info-wrap').load('brixton.php');
@@ -241,6 +247,64 @@ function setVideo() {
             $("#infobox").animate({left:'0'}, 250);
             setTimeout(function(){clicks();}, 300);
         });
+
+        google.maps.event.addListener(hyde, 'click', function() {
+            $('.info-wrap').load('hyde-park.php');
+            setTimeout(function(){setVideo();}, 250);
+            $("#infobox").animate({left:'0'}, 250);
+            setTimeout(function(){clicks();}, 300);
+        });
+        google.maps.event.addListener(royal, 'click', function() {
+            $('.info-wrap').load('royal-court-theatre.php');
+            setTimeout(function(){setVideo();}, 250);
+            $("#infobox").animate({left:'0'}, 250);
+            setTimeout(function(){clicks();}, 300);
+        });
+        google.maps.event.addListener(columbia, 'click', function() {
+            $('.info-wrap').load('columbia-road.php');
+            setTimeout(function(){setVideo();}, 250);
+            $("#infobox").animate({left:'0'}, 250);
+            setTimeout(function(){clicks();}, 300);
+        });
+        google.maps.event.addListener(strand, 'click', function() {
+            $('.info-wrap').load('strand.php');
+            setTimeout(function(){setVideo();}, 250);
+            $("#infobox").animate({left:'0'}, 250);
+            setTimeout(function(){clicks();}, 300);
+        });
+        google.maps.event.addListener(theatre, 'click', function() {
+            $('.info-wrap').load('stratford.php');
+            setTimeout(function(){setVideo();}, 250);
+            $("#infobox").animate({left:'0'}, 250);
+            setTimeout(function(){clicks();}, 300);
+        });
+        google.maps.event.addListener(vanda, 'click', function() {
+            $('.info-wrap').load('v-and-a.php');
+            setTimeout(function(){setVideo();}, 250);
+            $("#infobox").animate({left:'0'}, 250);
+            setTimeout(function(){clicks();}, 300);
+        });
+        google.maps.event.addListener(conolly, 'click', function() {
+            $('.info-wrap').load('conolly-dell.php');
+            setTimeout(function(){setVideo();}, 250);
+            $("#infobox").animate({left:'0'}, 250);
+            setTimeout(function(){clicks();}, 300);
+        });
+        google.maps.event.addListener(acton, 'click', function() {
+            $('.info-wrap').load('north-acton.php');
+            setTimeout(function(){setVideo();}, 250);
+            $("#infobox").animate({left:'0'}, 250);
+            setTimeout(function(){clicks();}, 300);
+        });
+        google.maps.event.addListener(richmond, 'click', function() {
+            $('.info-wrap').load('richmond-park.php');
+            setTimeout(function(){setVideo();}, 250);
+            $("#infobox").animate({left:'0'}, 250);
+            setTimeout(function(){clicks();}, 300);
+        });
+
+
+
 
        
 
@@ -287,6 +351,60 @@ function setVideo() {
             middleRight = '<img height="300px" width="600px" src="img/grapes/grapes2.jpg">';
             bottomLeft = "<img height='300px' width='600px' src='img/grapes/grapes3.jpg'>";
             bottomRight = "<img height='300px' width='600px' src='img/grapes/grapes4.jpg'>";
+            break;
+            case 'hyde-park':
+            middleLeft = '<video height="300px" width="600px" src="img/hyde_park/hyde_park.mp4"></video>';
+            middleRight = '<img height="300px" width="600px" src="img/hyde_park/hyde2.jpg">';
+            bottomLeft = "<img height='300px' width='600px' src='img/hyde_park/hyde3.jpg'>";
+            bottomRight = "<img height='300px' width='600px' src='img/hyde_park/hyde4.jpg'>";
+            break;
+            case 'royal-court-theatre':
+            middleLeft = '<video height="300px" width="600px" src="img/royal_court_theatre/sloane.mp4"></video>';
+            middleRight = '<img height="300px" width="600px" src="img/royal_court_theatre/roycour2.jpg">';
+            bottomLeft = "<img height='300px' width='600px' src='img/royal_court_theatre/roycour3.jpg'>";
+            bottomRight = "<img height='300px' width='600px' src='img/royal_court_theatre/roycour4.jpg'>";
+            break;
+            case 'columbia-road':
+            middleLeft = '<img height="300px" width="600px" src="img/columbia_rd/col_rd1.jpg">';
+            middleRight = '<img height="300px" width="600px" src="img/columbia_rd/col_rd2.jpg">';
+            bottomLeft = "<img height='300px' width='600px' src='img/columbia_rd/col_rd3.jpg'>";
+            bottomRight = "<img height='300px' width='600px' src='img/columbia_rd/col_rd4.jpg'>";
+            break;
+            case 'strand':
+            middleLeft = '<video height="300px" width="600px" src="img/strand/strand.mp4"></video>';
+            middleRight = '<img height="300px" width="600px" src="img/strand/strand2.jpg">';
+            bottomLeft = "<img height='300px' width='600px' src='img/strand/strand3.jpg'>";
+            bottomRight = "<img height='300px' width='600px' src='img/strand/strand4.jpg'>";
+            break;
+            case 'stratford':
+            middleLeft = '<video height="300px" width="600px" src="img/stratford/stratford.mp4"></video>';
+            middleRight = '<img height="300px" width="600px" src="img/stratford/strat2.jpg">';
+            bottomLeft = "<img height='300px' width='600px' src='img/stratford/strat3.jpg'>";
+            bottomRight = "<img height='300px' width='600px' src='img/stratford/strat4.jpg'>";
+            break;
+            case 'v-and-a':
+            middleLeft = '<video height="300px" width="600px" src="img/v-and-a/va.mp4"></video>';
+            middleRight = '<img height="300px" width="600px" src="img/v-and-a/va2.jpg">';
+            bottomLeft = "<img height='300px' width='600px' src='img/v-and-a/va3.jpg'>";
+            bottomRight = "<img height='300px' width='600px' src='img/v-and-a/va4.jpg'>";
+            break;
+            case 'conolly-dell':
+            middleLeft = '<video height="300px" width="600px" src="img/conolly_dell/conolly.mp4"></video>';
+            middleRight = '<img height="300px" width="600px" src="img/conolly_dell/con_dell2.jpg">';
+            bottomLeft = "<img height='300px' width='600px' src='img/conolly_dell/con_dell3.jpg'>";
+            bottomRight = "<img height='300px' width='600px' src='img/conolly_dell/con_dell4.jpg'>";
+            break;
+            case 'north-acton':
+            middleLeft = '<img height="300px" width="600px" src="img/north_acton/acton1.jpg">';
+            middleRight = '<img height="300px" width="600px" src="img/north_acton/acton2.jpg">';
+            bottomLeft = "<img height='300px' width='600px' src='img/north_acton/acton3.jpg'>";
+            bottomRight = "<img height='300px' width='600px' src='img/north_acton/acton4.jpg'>";
+            break;
+            case 'richmond-park':
+            middleLeft = '<img height="300px" width="600px" src="img/richmond_park/rich_park1.jpg">';
+            middleRight = '<img height="300px" width="600px" src="img/richmond_park/rich_park2.jpg">';
+            bottomLeft = "<img height='300px' width='600px' src='img/richmond_park/rich_park3.jpg'>";
+            bottomRight = "<img height='300px' width='600px' src='img/richmond_park/rich_park4.jpg'>";
             break;
         }
 
