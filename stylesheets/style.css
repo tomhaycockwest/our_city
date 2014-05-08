@@ -8343,30 +8343,31 @@ body {
     top: 50px;
     width: 100%;
     z-index: 3;
-    left: 0; }
-    /* line 35, ../sass/_main.scss */
+    left: 0;
+    overflow-x: hidden; }
+    /* line 36, ../sass/_main.scss */
     body .container #header #logo-container {
       position: relative;
       left: 50%;
       margin: 0 0 20px -98px;
       height: 78px;
       width: 197px; }
-      /* line 42, ../sass/_main.scss */
+      /* line 43, ../sass/_main.scss */
       body .container #header #logo-container #logo {
         display: block; }
-    /* line 47, ../sass/_main.scss */
+    /* line 48, ../sass/_main.scss */
     body .container #header #topNav {
       position: relative;
       width: 220px;
       margin: 0 auto; }
-      /* line 53, ../sass/_main.scss */
+      /* line 54, ../sass/_main.scss */
       body .container #header #topNav ul {
         overflow: hidden; }
-        /* line 56, ../sass/_main.scss */
+        /* line 57, ../sass/_main.scss */
         body .container #header #topNav ul li {
           float: left;
           margin-left: 15px; }
-  /* line 66, ../sass/_main.scss */
+  /* line 67, ../sass/_main.scss */
   body #welcome {
     position: absolute;
     right: -724px;
