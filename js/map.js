@@ -331,24 +331,52 @@ function setVideo() {
             $("#infobox").animate({left:'0'}, 250);
             setTimeout(function(){clicks();}, 300);
         });
+        google.maps.event.addListener(royal, 'mouseover', function() {
+            royal.setIcon(iconHoverBase + 'sloane_sq.png');
+        });
+        google.maps.event.addListener(royal, 'mouseout', function() {
+            royal.setIcon(iconBase + 'sloane_sq.png');
+        });
+
         google.maps.event.addListener(columbia, 'click', function() {
             $('.info-wrap').load('columbia-road.php');
             setTimeout(function(){setVideo();}, 250);
             $("#infobox").animate({left:'0'}, 250);
             setTimeout(function(){clicks();}, 300);
         });
+        google.maps.event.addListener(columbia, 'mouseover', function() {
+            columbia.setIcon(iconHoverBase + 'columbia_rd.png');
+        });
+        google.maps.event.addListener(columbia, 'mouseout', function() {
+            columbia.setIcon(iconBase + 'columbia_rd.png');
+        });
+
         google.maps.event.addListener(strand, 'click', function() {
             $('.info-wrap').load('strand.php');
             setTimeout(function(){setVideo();}, 250);
             $("#infobox").animate({left:'0'}, 250);
             setTimeout(function(){clicks();}, 300);
         });
+        google.maps.event.addListener(strand, 'mouseover', function() {
+            strand.setIcon(iconHoverBase + 'strand.png');
+        });
+        google.maps.event.addListener(strand, 'mouseout', function() {
+            strand.setIcon(iconBase + 'strand.png');
+        });
+
         google.maps.event.addListener(theatre, 'click', function() {
             $('.info-wrap').load('stratford.php');
             setTimeout(function(){setVideo();}, 250);
             $("#infobox").animate({left:'0'}, 250);
             setTimeout(function(){clicks();}, 300);
         });
+        google.maps.event.addListener(hyde, 'mouseover', function() {
+            hyde.setIcon(iconHoverBase + 'hyde_park.png');
+        });
+        google.maps.event.addListener(hyde, 'mouseout', function() {
+            hyde.setIcon(iconBase + 'hyde_park.png');
+        });
+        
         google.maps.event.addListener(vanda, 'click', function() {
             $('.info-wrap').load('v-and-a.php');
             setTimeout(function(){setVideo();}, 250);
