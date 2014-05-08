@@ -370,50 +370,80 @@ function setVideo() {
             $("#infobox").animate({left:'0'}, 250);
             setTimeout(function(){clicks();}, 300);
         });
-        google.maps.event.addListener(hyde, 'mouseover', function() {
-            hyde.setIcon(iconHoverBase + 'hyde_park.png');
+        google.maps.event.addListener(theatre, 'mouseover', function() {
+            theatre.setIcon(iconHoverBase + 'stratford.png');
         });
-        google.maps.event.addListener(hyde, 'mouseout', function() {
-            hyde.setIcon(iconBase + 'hyde_park.png');
+        google.maps.event.addListener(theatre, 'mouseout', function() {
+            theatre.setIcon(iconBase + 'stratford.png');
         });
-        
+
         google.maps.event.addListener(vanda, 'click', function() {
             $('.info-wrap').load('v-and-a.php');
             setTimeout(function(){setVideo();}, 250);
             $("#infobox").animate({left:'0'}, 250);
             setTimeout(function(){clicks();}, 300);
         });
+        google.maps.event.addListener(vanda, 'mouseover', function() {
+            vanda.setIcon(iconHoverBase + 'va.png');
+        });
+        google.maps.event.addListener(vanda, 'mouseout', function() {
+            vanda.setIcon(iconBase + 'va.png');
+        });
+
         google.maps.event.addListener(conolly, 'click', function() {
             $('.info-wrap').load('conolly-dell.php');
             setTimeout(function(){setVideo();}, 250);
             $("#infobox").animate({left:'0'}, 250);
             setTimeout(function(){clicks();}, 300);
         });
+        google.maps.event.addListener(conolly, 'mouseover', function() {
+            conolly.setIcon(iconHoverBase + 'conolly_dell.png');
+        });
+        google.maps.event.addListener(conolly, 'mouseout', function() {
+            conolly.setIcon(iconBase + 'conolly_dell.png');
+        });
+
         google.maps.event.addListener(acton, 'click', function() {
             $('.info-wrap').load('north-acton.php');
             setTimeout(function(){setVideo();}, 250);
             $("#infobox").animate({left:'0'}, 250);
             setTimeout(function(){clicks();}, 300);
         });
+        google.maps.event.addListener(acton, 'mouseover', function() {
+            acton.setIcon(iconHoverBase + 'acton.png');
+        });
+        google.maps.event.addListener(acton, 'mouseout', function() {
+            acton.setIcon(iconBase + 'acton.png');
+        });
+
         google.maps.event.addListener(richmond, 'click', function() {
             $('.info-wrap').load('richmond-park.php');
             setTimeout(function(){setVideo();}, 250);
             $("#infobox").animate({left:'0'}, 250);
             setTimeout(function(){clicks();}, 300);
         });
+        google.maps.event.addListener(richmond, 'mouseover', function() {
+            richmond.setIcon(iconHoverBase + 'richmond.png');
+        });
+        google.maps.event.addListener(richmond, 'mouseout', function() {
+            richmond.setIcon(iconBase + 'richmond.png');
+        });
+
         google.maps.event.addListener(golborne, 'click', function() {
             $('.info-wrap').load('golborne-road.php');
             setTimeout(function(){setVideo();}, 250);
             $("#infobox").animate({left:'0'}, 250);
             setTimeout(function(){clicks();}, 300);
         });
+        google.maps.event.addListener(golborne, 'mouseover', function() {
+            golborne.setIcon(iconHoverBase + 'golborne.png');
+        });
+        google.maps.event.addListener(golborne, 'mouseout', function() {
+            golborne.setIcon(iconBase + 'golborne.png');
+        });
     }
     markers();
 
-
-
-
-       
 
         function clicks() {
         var middleLeft = '';
@@ -552,11 +582,13 @@ function setVideo() {
 
         $('#camera').click(function() {
             iconBase = 'img/photo_pins/';
+            iconHoverBase = '';
             markers();
         });
 
         $('#audio').click(function() {
             iconBase = 'img/feeling_pins/';
+            iconHoverBase = 'img/feeling_pins_hover/';
             markers();
         });
 
