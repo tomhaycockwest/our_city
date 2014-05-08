@@ -5,7 +5,7 @@
 	padding-top: 3px;
 	position: fixed;
 	width: 100%;
-	z-index: 4;
+	z-index: 5;
 	background: white;
 	bottom: 0;
 
@@ -42,7 +42,7 @@
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	z-index: 3;
+	z-index: 4;
 }
 
 #filter-menu {
@@ -80,7 +80,7 @@
 	display: none;
 	width: 340px;
 	position: absolute;
-	z-index: 5;
+	z-index: 3;
 	bottom: 25px;
 	left: 10px;
 	background: $bottomNav;
@@ -94,10 +94,14 @@
 	@extend .bottom-menu;
 
 	p {
-		padding: 20px 20px 100px 20px;
+		padding: 20px 20px 50px 20px;
 		color: white;
 		font-family: $nav;
 		font-size: 15px;
+
+		a {
+			color: white;
+		}
 	}
 }
 

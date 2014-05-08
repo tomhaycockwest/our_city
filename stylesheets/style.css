@@ -8715,7 +8715,7 @@ body {
   padding-top: 3px;
   position: fixed;
   width: 100%;
-  z-index: 4;
+  z-index: 5;
   background: white;
   bottom: 0; }
   /* line 12, ../sass/_footer.scss */
@@ -8747,7 +8747,7 @@ body {
   position: absolute;
   bottom: 0;
   left: 0;
-  z-index: 3; }
+  z-index: 4; }
 
 /* line 48, ../sass/_footer.scss */
 #filter-menu {
@@ -8784,7 +8784,7 @@ body {
   display: none;
   width: 340px;
   position: absolute;
-  z-index: 5;
+  z-index: 3;
   bottom: 25px;
   left: 10px;
   background: #70c252;
@@ -8797,32 +8797,36 @@ body {
 /* line 96, ../sass/_footer.scss */
 #about-menu p,
 #myldn-menu p {
-  padding: 20px 20px 100px 20px;
+  padding: 20px 20px 50px 20px;
   color: white;
   font-family: AverageSans;
   font-size: 15px; }
+  /* line 102, ../sass/_footer.scss */
+  #about-menu p a,
+  #myldn-menu p a {
+    color: white; }
 
-/* line 104, ../sass/_footer.scss */
+/* line 108, ../sass/_footer.scss */
 #join-menu {
   padding: 30px;
   padding-bottom: 80px; }
-  /* line 109, ../sass/_footer.scss */
+  /* line 113, ../sass/_footer.scss */
   #join-menu .disclaimer {
     font-size: 12px;
     font-family: AverageSans;
     color: white; }
 
-/* line 116, ../sass/_footer.scss */
+/* line 120, ../sass/_footer.scss */
 .form-label {
   font-family: Intro;
   font-size: 15px;
   color: white; }
 
-/* line 122, ../sass/_footer.scss */
+/* line 126, ../sass/_footer.scss */
 .submit {
   margin-top: 15px; }
 
-/* line 126, ../sass/_footer.scss */
+/* line 130, ../sass/_footer.scss */
 #login-menu {
   padding: 30px;
   padding-bottom: 80px; }

@@ -80,7 +80,7 @@
         </div>
 
         <div id="myldn-menu">
-            <p>Our City LDN is all about uniting the people of the city and mapping individual experience with the places you love most. If you would like to get involved with the project please email ourcityldn@gmail.com for the opportunity to share your experiences and what the city means to you.</p>
+            <p>Our City LDN is all about uniting the people of the city and mapping individual experience with the places you love most. If you would like to get involved with the project please email <a href="mailto:ourcityldn@gmail.com" target="_top">ourcityldn@gmail.com</a> for the opportunity to share your experiences and what the city means to you.</p>
         </div>
 
         <div id="join-menu">
