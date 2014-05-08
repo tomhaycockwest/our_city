@@ -104,7 +104,7 @@ function setVideo() {
 
     }
 
-    var iconHoverBase = '';
+    var iconHoverBase = 'img/photo_pins/';
     var iconBase = 'img/photo_pins/';
     function markers() {
 
@@ -582,7 +582,7 @@ function setVideo() {
 
         $('#camera').click(function() {
             iconBase = 'img/photo_pins/';
-            iconHoverBase = '';
+            iconHoverBase = 'img/photo_pins/';
             markers();
         });
 
