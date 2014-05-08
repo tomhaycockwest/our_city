@@ -8366,6 +8366,17 @@ body {
         body .container #header #topNav ul li {
           float: left;
           margin-left: 15px; }
+  /* line 66, ../sass/_main.scss */
+  body #welcome {
+    position: absolute;
+    right: -724px;
+    bottom: 40px;
+    z-index: 5;
+    font-size: 24px;
+    font-family: Intro;
+    color: #13958a;
+    width: 724px;
+    text-align: justify; }
 
 /* line 1, ../sass/_infobox.scss */
 #infobox {

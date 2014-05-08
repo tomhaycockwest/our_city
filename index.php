@@ -49,11 +49,13 @@
             </div>
         </div>
 
-       <div id="infobox">
-           <div class="info-wrap">
-            
-           </div>
-       </div>
+    <div id="infobox">
+        <div class="info-wrap"></div>
+    </div>
+
+    <div id="welcome">
+        <p>Introduce yourself to new spaces and places across the city through the memories and tales of the people. Choose how you view the map using the three options, and interact with the different pins to explore London.</p>
+    </div>
 
 
 

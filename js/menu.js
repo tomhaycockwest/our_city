@@ -17,7 +17,12 @@
 // 	$('.video-upload').toggleClass('active');
 // });
 
+function welcomeSlide() {
+	setTimeout(function(){$('#welcome').animate({"right": "40px"});}, 4000);
+	setTimeout(function(){$('#welcome').animate({"right": "-724px"});}, 19000);
+}
 
+welcomeSlide();
 // Footer Menu
 
 var ldnmenu = "closed";

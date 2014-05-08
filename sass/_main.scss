@@ -60,5 +60,18 @@ body {
 				}
 			}
 		}
+
+		
+	}
+	#welcome {
+		position: absolute;
+		right: -724px;
+		bottom: 40px;
+		z-index: 5;
+		font-size: 24px;
+		font-family: Intro;
+		color: #13958a;
+		width: 724px;
+		text-align: justify;
 	}
 }
