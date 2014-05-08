@@ -104,7 +104,7 @@ function setVideo() {
 
     }
 
-   
+    var iconHoverBase = '';
     var iconBase = 'img/photo_pins/';
     function markers() {
 
@@ -234,6 +234,13 @@ function setVideo() {
             $("#infobox").animate({left:'0'}, 250);
             setTimeout(function(){clicks();}, 300);
         });
+        google.maps.event.addListener(brixton, 'mouseover', function() {
+            brixton.setIcon(iconHoverBase + 'brixton.png');
+        });
+        google.maps.event.addListener(brixton, 'mouseout', function() {
+            brixton.setIcon(iconBase + 'brixton.png');
+        });
+       
 
         google.maps.event.addListener(graffiti, 'click', function() {
             $('.info-wrap').load('graffiti.php');
@@ -241,6 +248,13 @@ function setVideo() {
             $("#infobox").animate({left:'0'}, 250);
             setTimeout(function(){clicks();}, 300);
         });
+        google.maps.event.addListener(graffiti, 'mouseover', function() {
+            graffiti.setIcon(iconHoverBase + 'graffiti.png');
+        });
+        google.maps.event.addListener(graffiti, 'mouseout', function() {
+            graffiti.setIcon(iconBase + 'graffiti.png');
+        });
+        
 
         google.maps.event.addListener(pitt, 'click', function() {
             $('.info-wrap').load('pitt.php');
@@ -248,6 +262,13 @@ function setVideo() {
             $("#infobox").animate({left:'0'}, 250);
             setTimeout(function(){clicks();}, 300);
         });
+        google.maps.event.addListener(pitt, 'mouseover', function() {
+            pitt.setIcon(iconHoverBase + 'pitt_cue.png');
+        });
+        google.maps.event.addListener(pitt, 'mouseout', function() {
+            pitt.setIcon(iconBase + 'pitt_cue.png');
+        });
+        
 
         google.maps.event.addListener(portobello, 'click', function() {
             $('.info-wrap').load('portobello.php');
@@ -255,6 +276,13 @@ function setVideo() {
             $("#infobox").animate({left:'0'}, 250);
             setTimeout(function(){clicks();}, 300);
         });
+        google.maps.event.addListener(portobello, 'mouseover', function() {
+            portobello.setIcon(iconHoverBase + 'portobello.png');
+        });
+        google.maps.event.addListener(portobello, 'mouseout', function() {
+            portobello.setIcon(iconBase + 'portobello.png');
+        });
+        
 
         google.maps.event.addListener(sounds, 'click', function() {
             $('.info-wrap').load('sounds.php');
@@ -262,6 +290,13 @@ function setVideo() {
             $("#infobox").animate({left:'0'}, 250);
             setTimeout(function(){clicks();}, 300);
         });
+        google.maps.event.addListener(sounds, 'mouseover', function() {
+            sounds.setIcon(iconHoverBase + 'sounds_universe.png');
+        });
+        google.maps.event.addListener(sounds, 'mouseout', function() {
+            sounds.setIcon(iconBase + 'sounds_universe.png');
+        });
+        
 
         google.maps.event.addListener(grapes, 'click', function() {
             $('.info-wrap').load('grapes.php');
@@ -269,6 +304,13 @@ function setVideo() {
             $("#infobox").animate({left:'0'}, 250);
             setTimeout(function(){clicks();}, 300);
         });
+        google.maps.event.addListener(grapes, 'mouseover', function() {
+            grapes.setIcon(iconHoverBase + 'grapes.png');
+        });
+        google.maps.event.addListener(grapes, 'mouseout', function() {
+            grapes.setIcon(iconBase + 'grapes.png');
+        });
+        
 
         google.maps.event.addListener(hyde, 'click', function() {
             $('.info-wrap').load('hyde-park.php');
@@ -276,6 +318,13 @@ function setVideo() {
             $("#infobox").animate({left:'0'}, 250);
             setTimeout(function(){clicks();}, 300);
         });
+        google.maps.event.addListener(hyde, 'mouseover', function() {
+            hyde.setIcon(iconHoverBase + 'hyde_park.png');
+        });
+        google.maps.event.addListener(hyde, 'mouseout', function() {
+            hyde.setIcon(iconBase + 'hyde_park.png');
+        });
+        
         google.maps.event.addListener(royal, 'click', function() {
             $('.info-wrap').load('royal-court-theatre.php');
             setTimeout(function(){setVideo();}, 250);
@@ -485,6 +534,7 @@ function setVideo() {
 
         $('#quote').click(function() {
             iconBase = 'img/quote_pins/';
+            iconHoverBase = 'img/quote_pins_hover/';
             markers();
         });
 
