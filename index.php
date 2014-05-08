@@ -76,11 +76,11 @@
         </div>
 
         <div id="about-menu">
-            <p>Our City LDN is a unqiue way to interact with the city, allowing you to upload pictures, video clips, quotes and audio that you come across in london life. Aiming to connect the people of London and those who love the city by allowing you the people to build up a map of what really makes London so special. Explore the diversity and ever growing nature of the city. Whether it’s a family run bakery tucked away in a backstreet of Shoreditch, or the sounds of the underground, share your favourite things about London and discover new ones along the way.</p>
+            <p>Explore London away from the predictable pathways of the city and immerse yourself in the stories of the people. Mapping memories and significant spaces, Our City LDN is a unique way to interact with places across the city and the rich emotions, behaviours and experiences they hold. Combined to create an interactive map encouraging you to discover new places through images, videos and personal anecdotes from Londoners themselves. Our City LDN is all about offering a unique interactive experience uniting the metropolis and its people.</p>
         </div>
 
         <div id="myldn-menu">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ipsum nunc, in auctor sem mollis eu. Nam sit amet orci sit amet ipsum scelerisque tristique ut ac leo. Aliquam consequat hendrerit nisi, a rhoncus orci elementum et. Vestibulum in ipsum non nibh pellentesque facilisis dictum ut nisl. Maecenas nec malesuada ligula. Curabitur a aliquam massa. Aenean convallis magna imperdiet, malesuada dolor sit amet, ultrices massa. Integer sit amet odio nisi. Nullam pretium ipsum molestie enim posuere semper.</p>
+            <p>Our City LDN is all about uniting the people of the city and mapping individual experience with the places you love most. If you would like to get involved with the project please email ourcityldn@gmail.com for the opportunity to share your experiences and what the city means to you.</p>
         </div>
 
         <div id="join-menu">
