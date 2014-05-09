@@ -7,46 +7,47 @@
                 <div id="logo-container">
                     <img id="logo" src="img/logo.png">
                 </div>
-                <div id="topNav">
-                    <ul>
-                        <li id="camera">
-                            <a href="#"><img src="img/camera-icon.png"></a>
-                            <div class="camera-upload">
-                                <div class="arrow"></div>
-                                <div class="choose-file">Choose File</div>
-                                <div class="location">Locate:</div>
-                                <div class="caption">Caption:</div>
-                                <div class="tag">Tag:</div>
-                                <div class="upload">Upload</div>
-                            </div>
-                        </li>
-                        <li id="audio">
-                            <a href="#"><img src="img/emotion-icon.png"></a>
-                            <div class="audio-upload">
-                                <div class="arrow"></div>
-                                <div class="arrow"></div>
-                                <div class="choose-file">Choose File</div>
-                                <div class="location">Locate:</div>
-                                <div class="caption">Caption:</div>
-                                <div class="tag">Tag:</div>
-                                <div class="upload">Upload</div>
-                            </div>
-                        </li>   
-                        <li id="quote">
-                            <a href="#"><img src="img/quote-icon.png"></a>
-                            <div class="quote-upload">
-                                <div class="arrow"></div>
-                                <div class="arrow"></div>
-                                <div class="choose-file">Choose File</div>
-                                <div class="location">Title:</div>
-                                <div class="caption">Quote:</div>
-                                <div class="tag">Tag:</div>
-                                <div class="upload">Post</div>
-                            </div>
-                        </li>
-                    </ul>
+               
+            </div>
+            <div id="topNav">
+                <ul>
+                    <li id="camera">
+                        <a href="#"><img src="img/camera-icon.png"></a>
+                        <div class="camera-upload">
+                            <div class="arrow"></div>
+                            <div class="choose-file">Choose File</div>
+                            <div class="location">Locate:</div>
+                            <div class="caption">Caption:</div>
+                            <div class="tag">Tag:</div>
+                            <div class="upload">Upload</div>
+                        </div>
+                    </li>
+                    <li id="audio">
+                        <a href="#"><img src="img/emotion-icon.png"></a>
+                        <div class="audio-upload">
+                            <div class="arrow"></div>
+                            <div class="arrow"></div>
+                            <div class="choose-file">Choose File</div>
+                            <div class="location">Locate:</div>
+                            <div class="caption">Caption:</div>
+                            <div class="tag">Tag:</div>
+                            <div class="upload">Upload</div>
+                        </div>
+                    </li>   
+                    <li id="quote">
+                        <a href="#"><img src="img/quote-icon.png"></a>
+                        <div class="quote-upload">
+                            <div class="arrow"></div>
+                            <div class="arrow"></div>
+                            <div class="choose-file">Choose File</div>
+                            <div class="location">Title:</div>
+                            <div class="caption">Quote:</div>
+                            <div class="tag">Tag:</div>
+                            <div class="upload">Post</div>
+                        </div>
+                    </li>
+                </ul>
 
-                </div>
             </div>
         </div>
 

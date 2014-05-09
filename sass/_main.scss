@@ -10,14 +10,6 @@ body {
 		right: 0;
 		bottom: 25px;
 
-		// height: 690px;
-		// position: relative;
-		// background-color: rgb(229, 227, 223);
-		// overflow: hidden;
-		// -webkit-transform: translateZ(0px);
-		// width: 1520px;
-		// float: right;
-
 		@media (min-device-width : 320px) and (max-device-width : 480px) {
 			bottom: 0px;
 		}
@@ -33,6 +25,12 @@ body {
 			left: 0;
 			overflow-x: hidden;
 
+			@media only screen and (min-width : 1224px) and (max-width : 1824px) {
+				width: 126px;
+				left: 50%;
+				margin-left: -63px;
+			}
+
 			#logo-container {
 				position: relative;
 				left: 50%;
@@ -40,39 +38,64 @@ body {
 				height: 78px;
 				width: 197px;
 
+				@media only screen and (min-width : 1224px) and (max-width : 1824px) {
+					height: 50px;
+					width: 126px;
+					left: 0;
+					margin: 0;
+				}
+
 				#logo {
 					display: block;
-				}
-			}
 
-			#topNav {
-				position: relative;
-				width: 220px;
-				margin: 0 auto;
-
-
-				ul {
-					overflow: hidden;
-
-					li {
-						float: left;
-						margin-left: 15px;
+					@media only screen and (min-width : 1224px) and (max-width : 1824px) {
+						height: 50px;
+						width: 126px;
 					}
 				}
 			}
+
+			
 		}
 
 		
+	}
+
+	#topNav {
+		width: 206px;
+		position: absolute;
+		top: 110px;
+		z-index: 3;
+		left: 50%;
+		margin-left: -109px;
+
+		@media only screen and (min-width : 1825px) {
+			top: 140px;
+		}
+
+		ul {
+			overflow: hidden;
+
+			li {
+				float: left;
+				margin-left: 15px;
+			}
+		}
 	}
 	#welcome {
 		position: absolute;
 		right: -724px;
 		bottom: 40px;
 		z-index: 5;
-		font-size: 16px;
+		font-size: 20px;
 		font-family: Intro;
 		color: #13958a;
 		width: 724px;
 		text-align: justify;
+
+		@media only screen and (min-width : 1224px) and (max-width : 1824px) {
+			font-size: 14px;
+			width: 377px;
+		}
 	}
 }
