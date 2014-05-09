@@ -72,6 +72,10 @@ function setVideo() {
             streetViewControl: false,
         };
 
+        var div = document.getElementById('map-canvas');
+        var map = new google.maps.Map(div, options);
+        var styledMapType = new google.maps.StyledMapType(styles, { name: 'Styled' });
+        map.mapTypes.set('Styled', styledMapType);
 
     } else {
         styles = [
@@ -102,7 +106,7 @@ function setVideo() {
             streetViewControl: false,
         };
 
-    }
+ 
 
     var iconHoverBase = 'img/photo_pins/';
     var iconBase = 'img/photo_pins/';
@@ -597,5 +601,6 @@ function setVideo() {
             iconHoverBase = 'img/quote_pins_hover/';
             markers();
         });
+    }
 
 };
