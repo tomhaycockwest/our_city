@@ -73,9 +73,20 @@
                 <ul>
                     <li><a id="about" href="#">about</a></li>
                     <li><a id="myldn" href="#">my ldn</a></li>
-                    <li><a href="http://blog.ourcityldn.com" target="_blank">blog</a></li>
-                    <li><a id="trailer" href="//www.youtube.com/embed/Nv7Ts4v5_Bs?version=3&autohide=1&autoplay=1&rel=0" class="lightbox">trailer</a></li>
+                    <li><a href="http://blog.ourcityldn.com/category/behind-the-scenes" target="_blank">blog</a></li>
+                    <li><a id="trailer" href="//www.youtube.com/embed/SQqawt3iAKk?version=3&autohide=1&autoplay=1&rel=0" class="lightbox">trailer</a></li>
                 </ul>
+            </div>
+
+            <div id="bottomRightNav">
+                <ul>
+                    <li><a target="_blank" id ="insta" href="http://instagram.com/ourcityldn"><img src="img/instagram.png"></a></li>
+                    <li><a><img id="bu_logo" src="img/bu-logo.png"></a></li>
+                </ul>
+            </div>
+
+            <div id="insta">
+                
             </div>
         </div>
 

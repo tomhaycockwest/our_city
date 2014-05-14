@@ -8806,15 +8806,44 @@ body {
         /* line 33, ../sass/_footer.scss */
         #footer #bottomNav ul li .highlighted {
           color: #70c252; }
+  /* line 41, ../sass/_footer.scss */
+  #footer #bottomRightNav {
+    float: right;
+    padding-right: 40px; }
+    /* line 45, ../sass/_footer.scss */
+    #footer #bottomRightNav ul {
+      display: block;
+      float: left;
+      text-transform: uppercase; }
+      /* line 50, ../sass/_footer.scss */
+      #footer #bottomRightNav ul li {
+        display: inline;
+        margin-right: 10px;
+        word-spacing: 1px; }
+        /* line 55, ../sass/_footer.scss */
+        #footer #bottomRightNav ul li a {
+          text-decoration: none;
+          color: black;
+          font-family: Intro;
+          font-size: 12px; }
+          /* line 61, ../sass/_footer.scss */
+          #footer #bottomRightNav ul li a img {
+            margin-bottom: 2px; }
+          /* line 65, ../sass/_footer.scss */
+          #footer #bottomRightNav ul li a #bu_logo {
+            opacity: 0.1; }
+        /* line 71, ../sass/_footer.scss */
+        #footer #bottomRightNav ul li .highlighted {
+          color: #70c252; }
 
-/* line 41, ../sass/_footer.scss */
+/* line 80, ../sass/_footer.scss */
 #skyline {
   position: absolute;
   bottom: 0;
   left: 0;
   z-index: 4; }
 
-/* line 48, ../sass/_footer.scss */
+/* line 87, ../sass/_footer.scss */
 #filter-menu {
   display: none;
   background: #70c252;
@@ -8823,27 +8852,27 @@ body {
   position: absolute;
   left: 10px;
   bottom: 25px; }
-  /* line 57, ../sass/_footer.scss */
+  /* line 96, ../sass/_footer.scss */
   #filter-menu ul {
     color: white;
     font-family: Intro;
     font-size: 12px;
     margin-top: 50px; }
-    /* line 63, ../sass/_footer.scss */
+    /* line 102, ../sass/_footer.scss */
     #filter-menu ul li {
       border-top: 1px solid white;
       padding: 10px 0 10px 10px;
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box; }
-      /* line 68, ../sass/_footer.scss */
+      /* line 107, ../sass/_footer.scss */
       #filter-menu ul li:last-child {
         border-bottom: 1px solid white; }
-    /* line 73, ../sass/_footer.scss */
+    /* line 112, ../sass/_footer.scss */
     #filter-menu ul .selected {
       color: #396927; }
 
-/* line 79, ../sass/_footer.scss */
+/* line 118, ../sass/_footer.scss */
 .bottom-menu, #about-menu,
 #myldn-menu, #join-menu, #login-menu {
   display: none;
@@ -8859,39 +8888,39 @@ body {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 96, ../sass/_footer.scss */
+/* line 135, ../sass/_footer.scss */
 #about-menu p,
 #myldn-menu p {
   padding: 20px 20px 50px 20px;
   color: white;
   font-family: AverageSans;
   font-size: 15px; }
-  /* line 102, ../sass/_footer.scss */
+  /* line 141, ../sass/_footer.scss */
   #about-menu p a,
   #myldn-menu p a {
     color: white; }
 
-/* line 108, ../sass/_footer.scss */
+/* line 147, ../sass/_footer.scss */
 #join-menu {
   padding: 30px;
   padding-bottom: 80px; }
-  /* line 113, ../sass/_footer.scss */
+  /* line 152, ../sass/_footer.scss */
   #join-menu .disclaimer {
     font-size: 12px;
     font-family: AverageSans;
     color: white; }
 
-/* line 120, ../sass/_footer.scss */
+/* line 159, ../sass/_footer.scss */
 .form-label {
   font-family: Intro;
   font-size: 15px;
   color: white; }
 
-/* line 126, ../sass/_footer.scss */
+/* line 165, ../sass/_footer.scss */
 .submit {
   margin-top: 15px; }
 
-/* line 130, ../sass/_footer.scss */
+/* line 169, ../sass/_footer.scss */
 #login-menu {
   padding: 30px;
   padding-bottom: 80px; }

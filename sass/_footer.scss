@@ -36,6 +36,45 @@
 			}
 		}
 	}
+
+
+	#bottomRightNav {
+		float: right;
+		padding-right: 40px;
+
+		ul {
+			display: block;
+			float: left;
+			text-transform: uppercase;
+
+			li {
+				display: inline;
+				margin-right: 10px;
+				word-spacing: 1px;
+
+				a {
+					text-decoration: none;
+					color: black;
+					font-family: $body;
+					font-size: 12px;
+
+					img {
+						margin-bottom: 2px;
+					}
+
+					#bu_logo {
+						opacity: 0.1;
+					}
+
+				}
+
+				.highlighted {
+					color: $bottomNav;
+				}
+			}
+		}
+
+	}
 }
 
 #skyline {
