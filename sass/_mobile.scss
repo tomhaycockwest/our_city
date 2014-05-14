@@ -44,15 +44,20 @@
 	left: 40px;
 	text-align: justify;
 	background: rgba(255, 255, 255, 0.65);
+	padding-left: 5px;
+	padding-right: 5px;
 
+	p {
+		margin: 0;
+	}
 }
 
 .line {
 	position: absolute;
 	background: white;
 	width: 3px;
-	height: 173px;
-	left: 30px;
+	height: 170px;
+	left: 37px;
 	z-index: 3;
 	bottom: 50px;
 }

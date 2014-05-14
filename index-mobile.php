@@ -9,7 +9,7 @@
             <div id="nav-mobile-container">
 	            <div id="nav-mobile">
 	            	<a href="//www.youtube.com/embed/Nv7Ts4v5_Bs?version=3&autohide=1&autoplay=1&rel=0" ><img src="img/trailer.png"></a>
-	            	<a href="http://instagram.com"><img src="img/insta.png"></a>
+	            	<a href="http://instagram.com/ourcityldn"><img src="img/insta.png"></a>
 	            	<a href="http://blog.ourcityldn.com"><img src="img/blog.png"></a>
 	            </div>
             </div>

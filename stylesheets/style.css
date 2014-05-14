@@ -8557,19 +8557,24 @@ body {
   width: 250px;
   left: 40px;
   text-align: justify;
-  background: rgba(255, 255, 255, 0.65); }
+  background: rgba(255, 255, 255, 0.65);
+  padding-left: 5px;
+  padding-right: 5px; }
+  /* line 50, ../sass/_mobile.scss */
+  #mobile-text p {
+    margin: 0; }
 
-/* line 50, ../sass/_mobile.scss */
+/* line 55, ../sass/_mobile.scss */
 .line {
   position: absolute;
   background: white;
   width: 3px;
-  height: 173px;
-  left: 30px;
+  height: 170px;
+  left: 37px;
   z-index: 3;
   bottom: 50px; }
 
-/* line 60, ../sass/_mobile.scss */
+/* line 65, ../sass/_mobile.scss */
 .filter-menu-mobile {
   display: none;
   position: absolute;
@@ -8580,28 +8585,28 @@ body {
   width: 100%;
   height: 150px;
   background-color: rgba(112, 194, 82, 0.63); }
-  /* line 71, ../sass/_mobile.scss */
+  /* line 76, ../sass/_mobile.scss */
   .filter-menu-mobile .left {
     float: left;
     width: 100px;
     text-align: center; }
-    /* line 76, ../sass/_mobile.scss */
+    /* line 81, ../sass/_mobile.scss */
     .filter-menu-mobile .left:first-child {
       margin-left: 7px; }
-  /* line 81, ../sass/_mobile.scss */
+  /* line 86, ../sass/_mobile.scss */
   .filter-menu-mobile li {
     margin: 22px 0; }
-  /* line 85, ../sass/_mobile.scss */
+  /* line 90, ../sass/_mobile.scss */
   .filter-menu-mobile a {
     font-family: Intro;
     color: white;
     font-size: 12px;
     width: 100px; }
-  /* line 92, ../sass/_mobile.scss */
+  /* line 97, ../sass/_mobile.scss */
   .filter-menu-mobile li.selected a {
     color: #396927; }
 
-/* line 98, ../sass/_mobile.scss */
+/* line 103, ../sass/_mobile.scss */
 .upload-mobile, .photo-upload-mobile, .audio-upload-mobile, .quote-upload-mobile, .video-upload-mobile, #footer-mobile {
   display: block;
   position: absolute;
@@ -8610,37 +8615,37 @@ body {
   height: 220px;
   bottom: -220px; }
 
-/* line 107, ../sass/_mobile.scss */
+/* line 112, ../sass/_mobile.scss */
 .photo-upload-mobile {
   background-color: #13958a; }
 
-/* line 112, ../sass/_mobile.scss */
+/* line 117, ../sass/_mobile.scss */
 .audio-upload-mobile {
   background-color: #b9205b; }
 
-/* line 117, ../sass/_mobile.scss */
+/* line 122, ../sass/_mobile.scss */
 .quote-upload-mobile {
   background-color: #0d8fac; }
 
-/* line 122, ../sass/_mobile.scss */
+/* line 127, ../sass/_mobile.scss */
 .video-upload-mobile {
   background-color: #ec3912; }
 
-/* line 127, ../sass/_mobile.scss */
+/* line 132, ../sass/_mobile.scss */
 #footer-mobile {
   background: #70c252;
   bottom: -430px;
   height: 450px; }
-  /* line 134, ../sass/_mobile.scss */
+  /* line 139, ../sass/_mobile.scss */
   #footer-mobile a {
     color: white;
     font-family: Intro;
     font-size: 12px;
     margin-bottom: 10px; }
-    /* line 140, ../sass/_mobile.scss */
+    /* line 145, ../sass/_mobile.scss */
     #footer-mobile a:hover {
       text-decoration: none; }
-  /* line 146, ../sass/_mobile.scss */
+  /* line 151, ../sass/_mobile.scss */
   #footer-mobile #login-form-mobile,
   #footer-mobile #join-form-mobile {
     display: none; }
