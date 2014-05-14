@@ -4,3 +4,4 @@
 <script src="js/menu-ck.js" type="text/javascript"></script>
 <script src="js/mediaelement-and-player.min.js" type="text/javascript"></script>
 <script src="js/distrib.min.js" type="text/javascript"></script>
+<script src="js/retina-ck.js" type="text/javascript"></script>
